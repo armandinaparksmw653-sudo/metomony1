@@ -21,4 +21,16 @@ Hygiene rules enforced by CI: `--safe`, no `postulate`, no holes, no `TERMINATIN
 
 ## Status
 
-Phase F1 (signatures and theorem statements) in progress. No empirical results yet.
+Formal track (see `PLAN.md`):
+
+| Item | Status |
+|---|---|
+| F1 signatures (`Graph`, `Route`, `Rules`, `Model`, `Coe`, modes) | done: `agda/src/Metonymy/Graph.agda`, `Semantics.agda` |
+| T5 (partial), route category laws: `++-assoc`, `++-unitʳ` | proved |
+| T6 route independence (`routeIndependence`, `interpC`) | proved |
+| T9' (part): `Resolve ⇒ Retain` | proved |
+| T12 counting under coercions (`copredication`) | proved |
+| T13 countermodel to `Three Book ⇒ Three Info` | proved |
+| Terms, typing, elaboration (T1, T3), certificates (T16) | next |
+
+No empirical results yet.
