@@ -31,6 +31,11 @@ Formal track (see `PLAN.md`):
 | T9' (part): `Resolve ⇒ Retain` | proved |
 | T12 counting under coercions (`copredication`) | proved |
 | T13 countermodel to `Three Book ⇒ Three Info` | proved |
-| Terms, typing, elaboration (T1, T3), certificates (T16) | next |
+| Typed sentences with explicit coercions, raw certificates, checker (`Check.agda`) | done |
+| T16 checker sound and complete (`checkCert-sound`, `checkCert-complete`) | proved |
+| T1 typing of certificates decidable (`decTyped`) | proved |
+| Surface preservation of coercion insertion (`surface-preserved`) | proved |
+| Toy lexicon, accepted and rejected certificates checked by computation (`Example.agda`) | done |
+| Semantics of sentences (`Form` in a model), modes over `Coe`, T7, T10, T11, T15, T17, T18 | next |
 
 No empirical results yet.
