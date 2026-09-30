@@ -1,0 +1,43 @@
+name: agda
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      AGDA_VERSION: 2.8.0.2
+      CUBICAL_VERSION: v0.9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache Agda and cubical
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ~/agda-tools
+          key: agda-${{ env.AGDA_VERSION }}-cubical-${{ env.CUBICAL_VERSION }}-v1
+      - name: Install Agda and cubical
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/agda-tools && cd ~/agda-tools
+          curl -sSL "https://github.com/agda/agda/releases/download/v${AGDA_VERSION}/Agda-v${AGDA_VERSION}-linux.tar.xz" | tar xJ
+          git clone --depth 1 --branch "${CUBICAL_VERSION}" https://github.com/agda/cubical.git
+          find ~/agda-tools -maxdepth 3 -type f -name agda
+      - name: Configure Agda
+        run: |
+          AGDA_BIN=$(find ~/agda-tools -maxdepth 3 -type f -name agda | head -1)
+          chmod +x "$AGDA_BIN"
+          echo "AGDA_BIN=$AGDA_BIN" >> "$GITHUB_ENV"
+          mkdir -p ~/.agda
+          echo "$HOME/agda-tools/cubical/cubical.agda-lib" > ~/.agda/libraries
+          echo "AGDA_DIR=$HOME/.agda" >> "$GITHUB_ENV"
+          "$AGDA_BIN" --version
+      - name: Hygiene (no postulate / holes / termination pragmas)
+        run: |
+          if grep -rnE '(^|[^-A-Za-z])postulate([^A-Za-z-]|$)|\{!|!\}|TERMINATING|NON_TERMINATING|sorry' agda/src; then
+            echo "Forbidden construct found"; exit 1
+          fi
+      - name: Typecheck
+        working-directory: agda
+        run: |
+          if [ -f src/Everything.agda ]; then "$AGDA_BIN" src/Everything.agda; else echo "no Everything.agda yet"; fi

@@ -1,0 +1,3 @@
+name: metonymy
+include: src
+depend: cubical

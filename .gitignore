@@ -1,0 +1,7 @@
+*.agdai
+_build/
+__pycache__/
+*.pyc
+.env
+*.log
+data/raw/
