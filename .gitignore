@@ -5,3 +5,5 @@ __pycache__/
 .env
 *.log
 data/raw/
+*.jsonl
+!results/*.jsonl
