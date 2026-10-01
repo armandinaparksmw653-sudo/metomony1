@@ -96,3 +96,31 @@ module _ {ℓ} (S₁ S₂ : Type ℓ) where
 
   homonym-disjoint : ∀ z → IsSense₁ z → IsSense₂ z → E.⊥
   homonym-disjoint z (x , px) (y , py) = inl≢inr (sym px ∙ py)
+
+------------------------------------------------------------------------------
+-- T11 (Conjoin). Two coercions of one source applied to the same referent. The common source is enforced
+-- by the typing of Conjoin itself; for a homonym (disjoint senses) the conjunction is refutable.
+
+module _ (M : Model) where
+  open Model M
+
+  Conjoin : ∀ {A B C} → Route A B → (⟨ Car B ⟩ → hProp ℓ-zero)
+          → Route A C → (⟨ Car C ⟩ → hProp ℓ-zero) → ⟨ Car A ⟩ → hProp ℓ-zero
+  Conjoin r P s Q x = Retain M r P x ⊓ Retain M s Q x
+
+  conjoin⇒first : ∀ {A B C} (r : Route A B) P (s : Route A C) Q x → ⟨ Conjoin r P s Q x ⟩ → ⟨ Retain M r P x ⟩
+  conjoin⇒first r P s Q x = fst
+
+  conjoin⇒second : ∀ {A B C} (r : Route A B) P (s : Route A C) Q x → ⟨ Conjoin r P s Q x ⟩ → ⟨ Retain M s Q x ⟩
+  conjoin⇒second r P s Q x = snd
+
+  -- If the first coercion only applies to referents of one sense and the second only to referents of a
+  -- disjoint sense, no referent satisfies the conjunction.
+  conjoin-impossible : ∀ {A B C} (r : Route A B) P (s : Route A C) Q (IsL IsR : ⟨ Car A ⟩ → Type)
+                     → (∀ z → IsL z → IsR z → E.⊥)
+                     → (∀ z y → ⟨ interpR M r z y ⟩ → IsL z)
+                     → (∀ z y → ⟨ interpR M s z y ⟩ → IsR z)
+                     → ∀ z → ⟨ Conjoin r P s Q z ⟩ → E.⊥
+  conjoin-impossible r P s Q IsL IsR disj supL supR z (h1 , h2) =
+    PT.rec E.isProp⊥ (λ { (y , a , _) →
+      PT.rec E.isProp⊥ (λ { (y' , b , _) → disj z (supL z y a) (supR z y' b) }) h2 }) h1

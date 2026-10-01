@@ -14,5 +14,15 @@ open import Metonymy.Reencode
 open import Metonymy.Category
 open import Metonymy.Audit
 open import Metonymy.AuditExample
+open import Metonymy.Image
+open import Metonymy.Quantified
 
+-- Modules parameterized by a lexicon or a graph are imported without arguments (they are still checked).
 import Metonymy.Sentence
+import Metonymy.QuantifiedRoutes
+import Metonymy.Implicit
+import Metonymy.ReencodeUA
+import Metonymy.Enumerate
+import Metonymy.Classify
+import Metonymy.Rewriting
+import Metonymy.Normalize

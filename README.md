@@ -4,7 +4,7 @@ Verified interpretation of metonymy: a parsing/interpretation pipeline (UD windo
 coercion routes) whose outputs are **certificates checked in Cubical Agda**.
 
 * Plan and decisions: [`PLAN.md`](PLAN.md) (in Russian)
-* Literature notes: [`notes/LITERATURE.md`](notes/LITERATURE.md)
+* Literature notes: [`notes/LITERATURE.md`](notes/LITERATURE.md); T4 scouting: [`notes/T4-scout.md`](notes/T4-scout.md)
 * Toy finite-model experiments: [`experiments/toy/`](experiments/toy/)
 * Formal core (Agda): [`agda/`](agda/), theorem index in [`FORMAL.md`](FORMAL.md)
 
