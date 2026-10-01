@@ -1,0 +1,34 @@
+test sentences: 5000; majority (always literal): acc 0.713 macro-F1 0.416; always metonymic: F1 0.446
+
+== P0 (n_test=5000)  AUROC 0.681
+  R0  (threshold 0)   acc 0.724  macro-F1 0.629  F1(meto) 0.441
+  R0t (dev threshold -1.25) acc 0.697  macro-F1 0.623  F1(meto) 0.456
+      95% CI: macro-F1 [0.609, 0.638]  AUROC [0.665, 0.697]
+    CONTAINER  AUROC 0.671  R0 macro-F1 0.609
+    PRODUCER   AUROC 0.645  R0 macro-F1 0.553
+    PRODUCT    AUROC 0.762  R0 macro-F1 0.708
+    LOCATION   AUROC 0.712  R0 macro-F1 0.582
+    CAUSER     AUROC 0.457  R0 macro-F1 0.477
+    POSSESSED  AUROC 0.738  R0 macro-F1 0.674
+
+== P1 (n_test=5000)  AUROC 0.638
+  R0  (threshold 0)   acc 0.647  macro-F1 0.580  F1(meto) 0.412
+  R0t (dev threshold -2.50) acc 0.586  macro-F1 0.569  F1(meto) 0.484
+      95% CI: macro-F1 [0.556, 0.583]  AUROC [0.622, 0.654]
+    CONTAINER  AUROC 0.645  R0 macro-F1 0.569
+    PRODUCER   AUROC 0.587  R0 macro-F1 0.537
+    PRODUCT    AUROC 0.860  R0 macro-F1 0.685
+    LOCATION   AUROC 0.547  R0 macro-F1 0.536
+    CAUSER     AUROC 0.506  R0 macro-F1 0.443
+    POSSESSED  AUROC 0.604  R0 macro-F1 0.534
+
+== S1 (n_test=5000)  AUROC 0.698
+  R0  (threshold 0)   acc 0.613  macro-F1 0.594  F1(meto) 0.506
+  R0t (dev threshold +7.72) acc 0.726  macro-F1 0.640  F1(meto) 0.465
+      95% CI: macro-F1 [0.625, 0.654]  AUROC [0.681, 0.712]
+    CONTAINER  AUROC 0.749  R0 macro-F1 0.609
+    PRODUCER   AUROC 0.678  R0 macro-F1 0.339
+    PRODUCT    AUROC 0.820  R0 macro-F1 0.713
+    LOCATION   AUROC 0.850  R0 macro-F1 0.713
+    CAUSER     AUROC 0.556  R0 macro-F1 0.495
+    POSSESSED  AUROC 0.638  R0 macro-F1 0.570

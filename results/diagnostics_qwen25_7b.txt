@@ -1,0 +1,12 @@
+== LLM scores (test): AUROC P0 0.681  P1 0.638  S1 0.698
+   mean S1a -0.99, mean S1b +0.94 (position bias; the average cancels it)
+== dev-calibrated combiner of the 4 scores, per-type weights: AUROC 0.802  macro-F1 0.724
+== target-word prior from dev only (test): AUROC 0.780  macro-F1 0.688
+== TF-IDF + target one-hot, grouped by document (in-distribution): AUROC 0.863  acc 0.821  macro-F1 0.759
+== TF-IDF sentence only, grouped by TARGET word (unseen words): AUROC 0.695  acc 0.727  macro-F1 0.552
+     CONTAINER  TF-IDF(unseen target) 0.649   Qwen S1 0.743
+     PRODUCER   TF-IDF(unseen target) 0.712   Qwen S1 0.684
+     PRODUCT    TF-IDF(unseen target) 0.727   Qwen S1 0.827
+     LOCATION   TF-IDF(unseen target) 0.712   Qwen S1 0.849
+     CAUSER     TF-IDF(unseen target) 0.700   Qwen S1 0.575
+     POSSESSED  TF-IDF(unseen target) 0.562   Qwen S1 0.658
