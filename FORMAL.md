@@ -21,7 +21,7 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 | T4 | Bridge to implicit coercive subtyping (Luo) | `Implicit.elab-sound`, `elab-complete`, `elab-unique` | Proved for the **first-order fragment** (predicate sentences with constant arguments). The full theorem is **not done**; see `notes/T4-scout.md` |
 | T5 | Coe is a set; readings form a category; interpretation is a functor | `Semantics.isSetCoe`, `Category._∘C_`, `assocC`, `idLC`, `idRC`, `interpC-∘`, `Graph.≈-++-cong` | Proved |
 | T6 | Route independence | `Semantics.routeIndependence`, `sound≈`, `interpC`; for sentences `Sentence.formSem-indep` | Proved |
-| T7 | Classification and decidability of equivalence | abstract: `Rewriting.newman`, `church-rosser`, `nf-unique`, `Normalize.norm-resp`; for routes: `Normalize.Build.normalizer`; classification: `Equivalence.decEquiv`, `classification` | Proved **from three hypotheses on the lexicon**: every rule shortens the route (`Shrinks`), one-step rewriting is locally confluent (`LC`, the critical-pair condition), reducibility is decidable (`step?`, a finite search). Termination is derived from `Shrinks`. The critical-pair lemma (that joinable critical pairs imply `LC`) and the finite search are **not** formalized; they are hypotheses. Decidability cannot hold without such conditions: equivalence of routes is the word problem of a finitely presented category |
+| T7 | Classification and decidability of equivalence | strings: `StringRewriting.levi`, `Confluence.LCs` (critical pair lemma), `Search.step?`, `terminatesS`, `Search.Norm.normS-resp`; abstract: `Rewriting.newman`, `church-rosser`, `nf-unique`, `Normalize.norm-resp`; typed lifting: `TypedFactor.factor-lhs`, `NormalizeFull.lift-step`, `lift-chain`; result: `NormalizeFull.Build.normalizer`; classification: `Equivalence.decEquiv`, `classification` | Proved, with **no unproved hypotheses beyond finite checks on the lexicon**: the rule list is finite and complete, every rule shortens the route (`Shrinks`), and the critical pairs (overlaps and inclusions of left-hand sides, `CP1`, `CP2`) are joinable. The critical pair lemma and the redex search are proved. The critical-pair check is also **computable inside Agda**: `StringRewriting.Checker.cpDecide` enumerates all splittings and joins each pair by greedy reduction; a successful run yields `CP1 × CP2`. Concrete runs: `NormalizeExample` (accepted, normal forms computed by `refl`) and `NormalizeExampleBad` (a non-confluent system is rejected). Without such conditions decidability is false in general: equivalence of routes is the word problem of a finitely presented category. `Normalize.agda` is the earlier, more abstract version that assumed local confluence and the redex search |
 | T7' | Completeness of the list of readings up to a length bound | `Enumerate.routesUpTo-complete`, `Classify.readings-covered`, `reps-distinct`, `Enumerate.routeEq` | Proved, in certificate form: a covering list of representatives, pairwise apart in a model, gives exactly those readings up to the bound |
 | T8 | Context as enabling of coercions (corrected formulation) | `Context.restrict-enabled`, `restrict-disabled`, `restrict-sound`, `Enabled-resp`, `EnabledC` | Proved |
 | T9' | Lattice of modes | `Semantics.Resolve⇒Retain`, `Modes.every⇒reading`, `reading⇒some`, `resolve⇒reading`, `reading-rep`, `retain-indep` | Proved |
@@ -41,7 +41,7 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 * The raw certificate format covers predicate sentences with coerced arguments. Modes, equivalence derivations,
   apartness witnesses, classes of readings and quantifiers are not yet part of the raw certificate; the
   semantic theorems above exist, the certificate encoding of them does not.
-* The critical-pair lemma and the redex search behind T7, the full T4, discourse dynamics, linear dot-types.
+* The full T4, discourse dynamics, linear dot-types.
 
 ## Modules
 
@@ -57,7 +57,12 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 | `Metonymy.Modes` | Modes over readings, Conjoin (T9', T10, T11) |
 | `Metonymy.Equivalence` | Apartness (T18), normalizer-based classification (T7) |
 | `Metonymy.Rewriting` | Abstract rewriting: Newman, Church-Rosser, normal forms (T7) |
-| `Metonymy.Normalize` | Routes as a rewriting system, termination from length, the normalizer (T7) |
+| `Metonymy.Normalize` | Earlier version: typed rewriting assuming local confluence and redex search (superseded by `NormalizeFull`) |
+| `Metonymy.StringRewriting` | Rewriting on lists of names: Levi's lemma, critical pair lemma, redex search, termination, computable critical-pair check (T7) |
+| `Metonymy.TypedFactor` | Factoring typed routes along a left-hand side (T7) |
+| `Metonymy.NormalizeFull` | The complete normalizer for typed routes (T7) |
+| `Metonymy.ExampleRules`, `NormalizeExample` | Concrete lexicon: critical pairs checked by computation, normal forms computed |
+| `Metonymy.ExampleRulesBad`, `NormalizeExampleBad` | Negative test: non-confluent system rejected |
 | `Metonymy.Enumerate` | Decidable route equality, enumeration of routes up to a bound (T7') |
 | `Metonymy.Classify` | Classification certificate for readings up to a bound (T7') |
 | `Metonymy.Context` | Context as enabling of edges (T8) |

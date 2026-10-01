@@ -26,3 +26,12 @@ import Metonymy.Enumerate
 import Metonymy.Classify
 import Metonymy.Rewriting
 import Metonymy.Normalize
+import Metonymy.TypedFactor
+import Metonymy.StringRewriting
+import Metonymy.NormalizeFull
+
+-- Concrete lexicons with declared equivalences: the complete normalizer, and a rejected non-confluent system.
+open import Metonymy.ExampleRules
+open import Metonymy.ExampleRulesBad
+open import Metonymy.NormalizeExample
+open import Metonymy.NormalizeExampleBad
