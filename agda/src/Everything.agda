@@ -35,3 +35,7 @@ open import Metonymy.ExampleRules
 open import Metonymy.ExampleRulesBad
 open import Metonymy.NormalizeExample
 open import Metonymy.NormalizeExampleBad
+
+-- Central correspondence (coherence iff isProp of the readings) and non-vacuity checks.
+import Metonymy.Coherence
+open import Metonymy.Instantiate

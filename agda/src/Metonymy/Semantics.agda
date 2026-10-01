@@ -1,7 +1,7 @@
 {-# OPTIONS --safe --cubical --guardedness #-}
 
 -- Semantic layer: models, relational interpretation of routes, the quotient Coe of routes by the
--- declared two-cells, and the statements of the main theorems (F1). Proofs follow in F2.
+-- declared two-cells, Route independence (T6) and the Retain/Resolve modes.
 open import Metonymy.Graph
 
 module Metonymy.Semantics (G : Graph) (R : Rules G) where
@@ -44,7 +44,7 @@ module _ (M : Model) where
   SoundRules = ∀ (ρ : RuleId) → interpR (lhs ρ) ≡ interpR (rhs ρ)
 
   ---------------------------------------------------------------------------
-  -- Statements of the main theorems (proofs: F2)
+  -- Route independence (T6): statement; proof below (sound≈, routeIndependence)
 
   -- T6. Route independence: equivalent routes have the same meaning.
   RouteIndependence : Type₁

@@ -15,6 +15,7 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 
 | № | Statement | Agda | Status |
 |---|---|---|---|
+| C1 | Coherence of coercions is `isProp (Coe A B)`; uniqueness is contractibility; `[r] = [s]` iff `∥ r ≈ s ∥` | `Coherence.coherent⇒isProp`, `isProp⇒coherent`, `readings-equal`, `contractible⇒exists×coherent`, `exists×coherent⇒contractible` | Proved. This is the central correspondence of the project; it was not stated as a theorem before the audit |
 | T1 | Typing of certificates is decidable | `Check.decTyped` | Proved |
 | T2 | Coercions are conservative: needed exactly on a type clash | `Check.clash-route-rejected`, `clash-ent-rejected`, `literal-accepted`, `clash-needs-route` | Proved |
 | T3 | Elaboration soundness | `Check.checkCert-sound`, `surface-preserved` | Proved for certificates. The elaborator is the Haskell core; Agda checks its output |
@@ -69,6 +70,8 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 | `Metonymy.Reencode`, `ReencodeUA` | Re-encoding invariance, directly and by univalence (T15) |
 | `Metonymy.Counting` | Individuation through functions (T12, T13) |
 | `Metonymy.Quantified`, `QuantifiedRoutes` | Individuation through relational coercions and routes (T12) |
+| `Metonymy.Coherence` | Coherence iff isProp of the readings, uniqueness iff contractibility (C1) |
+| `Metonymy.Instantiate` | Non-vacuity: parameterized modules instantiated, typed decision procedure computed |
 | `Metonymy.Image` | Counting in the image as a quotient (T14) |
 | `Metonymy.Implicit` | First-order fragment of the bridge to implicit coercions (T4) |
 | `Metonymy.Audit`, `AuditExample` | Lexicon audit on finite models (T17) |
