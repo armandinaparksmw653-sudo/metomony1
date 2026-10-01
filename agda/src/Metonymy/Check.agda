@@ -269,3 +269,32 @@ module Checker (L : Lexicon) where
 
   surface-preserved : ∀ (c : RawCert) {f : Form} → checkCert c ≡ just f → formSurface f ≡ rawSurface c
   surface-preserved c {f} eq = trans (formSurface-raw f) (cong rawSurface (checkCert-sound c eq))
+
+  ---------------------------------------------------------------------------
+  -- T2: coercions are conservative. A coercion is required exactly when the literal type of a
+  -- constant clashes with the slot type; without a clash the empty route is the only (literal) reading.
+
+  routeNil-no : ∀ A B (d : Dec (A ≡ B)) → ¬ (A ≡ B) → routeNil A B d ≡ nothing
+  routeNil-no A B (yes p) n = ⊥-elim (n p)
+  routeNil-no A B (no _)  n = refl
+
+  -- Clash: the empty route is rejected.
+  clash-route-rejected : ∀ A B → ¬ (A ≡ B) → checkRoute A B [] ≡ nothing
+  clash-route-rejected A B n = routeNil-no A B (tyEq A B) n
+
+  clash-ent-rejected : ∀ c B → ¬ (cty c ≡ B) → checkEnt B (rawArg (constName c) []) ≡ nothing
+  clash-ent-rejected c B n =
+    trans (cong (entStep B []) (constOf-name c)) (cong (mapMaybe (ent c)) (clash-route-rejected (cty c) B n))
+
+  -- No clash: the literal reading is accepted.
+  literal-accepted : ∀ c → checkEnt (cty c) (rawArg (constName c) []) ≡ just (ent c nil)
+  literal-accepted c = checkEnt-complete (ent c nil)
+
+  -- A route with no edges joins equal types.
+  routeNames-empty : ∀ {A B} (r : Route A B) → routeNames r ≡ [] → A ≡ B
+  routeNames-empty nil        _ = refl
+  routeNames-empty (cons e r) ()
+
+  -- A clashing slot cannot be filled by the literal (empty) route.
+  clash-needs-route : ∀ {c B} → ¬ (cty c ≡ B) → (r : Route (cty c) B) → ¬ (routeNames r ≡ [])
+  clash-needs-route n r h = n (routeNames-empty r h)

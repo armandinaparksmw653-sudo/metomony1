@@ -19,6 +19,9 @@ data ⊥ : Set where
 ¬_ : Set → Set
 ¬ A = A → ⊥
 
+⊥-elim : ∀ {A : Set} → ⊥ → A
+⊥-elim ()
+
 data Dec (A : Set) : Set where
   yes : A → Dec A
   no  : ¬ A → Dec A

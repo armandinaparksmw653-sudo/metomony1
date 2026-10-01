@@ -65,3 +65,38 @@ module Equiv (G : Graph) (R : Rules G) where
     ≈-trans : ∀ {A B} {r s t : Route A B} → r ≈ s → s ≈ t → r ≈ t
     ≈-step  : ∀ (ρ : RuleId) {A C} (p : Route A (rsrc ρ)) (s : Route (rtgt ρ) C)
             → (p ++ (lhs ρ ++ s)) ≈ (p ++ (rhs ρ ++ s))
+
+  -- Rewriting inside a context: composition respects the equivalence on both sides.
+  private
+    cong' : ∀ {X Y : Set} (f : X → Y) {x y : X} → x ≡ y → f x ≡ f y
+    cong' f refl = refl
+
+    ≈-subst : ∀ {A B} {r r' s s' : Route A B} → r ≡ r' → s ≡ s' → r' ≈ s' → r ≈ s
+    ≈-subst refl refl h = h
+
+  ≈-++ʳ : ∀ {A B C} (p : Route A B) {s s' : Route B C} → s ≈ s' → (p ++ s) ≈ (p ++ s')
+  ≈-++ʳ p ≈-refl        = ≈-refl
+  ≈-++ʳ p (≈-sym h)     = ≈-sym (≈-++ʳ p h)
+  ≈-++ʳ p (≈-trans h k) = ≈-trans (≈-++ʳ p h) (≈-++ʳ p k)
+  ≈-++ʳ p (≈-step ρ q t) =
+    ≈-subst (sym' (++-assoc p q (lhs ρ ++ t))) (sym' (++-assoc p q (rhs ρ ++ t))) (≈-step ρ (p ++ q) t)
+    where
+      sym' : ∀ {X : Set} {x y : X} → x ≡ y → y ≡ x
+      sym' refl = refl
+
+  ≈-++ˡ : ∀ {A B C} {r r' : Route A B} (s : Route B C) → r ≈ r' → (r ++ s) ≈ (r' ++ s)
+  ≈-++ˡ s ≈-refl        = ≈-refl
+  ≈-++ˡ s (≈-sym h)     = ≈-sym (≈-++ˡ s h)
+  ≈-++ˡ s (≈-trans h k) = ≈-trans (≈-++ˡ s h) (≈-++ˡ s k)
+  ≈-++ˡ s (≈-step ρ p t) =
+    ≈-subst (assoc3 p (lhs ρ) t s) (assoc3 p (rhs ρ) t s) (≈-step ρ p (t ++ s))
+    where
+      trans' : ∀ {X : Set} {x y z : X} → x ≡ y → y ≡ z → x ≡ z
+      trans' refl q = q
+
+      assoc3 : ∀ {A B C D E} (p : Route A B) (l : Route B C) (t : Route C D) (s : Route D E)
+             → (p ++ (l ++ t)) ++ s ≡ p ++ (l ++ (t ++ s))
+      assoc3 p l t s = trans' (++-assoc p (l ++ t) s) (cong' (λ x → p ++ x) (++-assoc l t s))
+
+  ≈-++-cong : ∀ {A B C} {r r' : Route A B} {s s' : Route B C} → r ≈ r' → s ≈ s' → (r ++ s) ≈ (r' ++ s')
+  ≈-++-cong {r' = r'} {s = s} h k = ≈-trans (≈-++ˡ s h) (≈-++ʳ r' k)
