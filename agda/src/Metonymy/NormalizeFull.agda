@@ -39,19 +39,8 @@ rhsN ρ = routeNames (rhs ρ)
 
 module S = SR RuleId lhsN rhsN
 
-module Build
-  (rules : List RuleId) (rules-complete : ∀ ρ → S.Mem ρ rules)
-  (sh : S.Shrinks)
-  (CP₁ : ∀ ρa ρb u v x → lhsN ρb ≡ u ++ v → lhsN ρa ≡ v ++ x → S.Joinable (u ++ rhsN ρa) (rhsN ρb ++ x))
-  (CP₂ : ∀ ρa ρb u y → lhsN ρb ≡ u ++ (lhsN ρa ++ y) → S.Joinable (u ++ (rhsN ρa ++ y)) (rhsN ρb))
-  where
-
-  module Q  = S.Search rules rules-complete
-  module NN = Q.Norm sh CP₁ CP₂
-
-  -- A shortening rule has a left-hand side with at least one edge.
-  ne : ∀ ρ → lhsN ρ ≡ [] → E.⊥
-  ne ρ h = ¬-<-zero (subst (λ l → length (rhsN ρ) < length l) h (sh ρ))
+-- Lifting rewriting on names to typed routes needs only that left-hand sides have at least one edge.
+module LiftSteps (ne : ∀ ρ → lhsN ρ ≡ [] → E.⊥) where
 
   -- One step of rewriting on the names of a route is a step of the typed equivalence.
   lift-step : ∀ {A B} (r : Route A B) {v} → routeNames r S.⇒s v
@@ -79,6 +68,23 @@ module Build
       (sym (names-++ p (lhs ρ ++ʳ t) ∙ cong (routeNames p ++_) (names-++ (lhs ρ) t)))
       (sym (names-++ p (rhs ρ ++ʳ t) ∙ cong (routeNames p ++_) (names-++ (rhs ρ) t)))
       (S.↔-step (S.intro ρ (routeNames p) (routeNames t)))
+
+
+module Build
+  (rules : List RuleId) (rules-complete : ∀ ρ → S.Mem ρ rules)
+  (sh : S.Shrinks)
+  (CP₁ : ∀ ρa ρb u v x → lhsN ρb ≡ u ++ v → lhsN ρa ≡ v ++ x → S.Joinable (u ++ rhsN ρa) (rhsN ρb ++ x))
+  (CP₂ : ∀ ρa ρb u y → lhsN ρb ≡ u ++ (lhsN ρa ++ y) → S.Joinable (u ++ (rhsN ρa ++ y)) (rhsN ρb))
+  where
+
+  module Q  = S.Search rules rules-complete
+  module NN = Q.Norm sh CP₁ CP₂
+
+  -- A shortening rule has a left-hand side with at least one edge.
+  ne : ∀ ρ → lhsN ρ ≡ [] → E.⊥
+  ne ρ h = ¬-<-zero (subst (λ l → length (rhsN ρ) < length l) h (sh ρ))
+
+  open LiftSteps ne
 
   -- The normalizer.
   normalizer : Normalizer

@@ -15,6 +15,7 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 
 | № | Statement | Agda | Status |
 |---|---|---|---|
+| E1 | Extended certificate: modes, chosen referents, readings, individuation | `Cert.Cert.check`, `meaning`, `acceptAll`; parts: `Evidence.checkResolve`, `retained`; `FamilyCert.Check.checkFamily`; `ThreeCert.Check.checkThree`; `Cert.checkConjoin`; end-to-end: `CertExample` | Proved sound by construction (the checked value carries the proofs). Claims are about a finite knowledge-base snapshot. Completeness of the checkers is demonstrated on examples, not proved; format and limits in `notes/CERTIFICATE-FORMAT.md` |
 | C1 | Coherence of coercions is `isProp (Coe A B)`; uniqueness is contractibility; `[r] = [s]` iff `∥ r ≈ s ∥` | `Coherence.coherent⇒isProp`, `isProp⇒coherent`, `readings-equal`, `contractible⇒exists×coherent`, `exists×coherent⇒contractible` | Proved. This is the central correspondence of the project; it was not stated as a theorem before the audit |
 | T1 | Typing of certificates is decidable | `Check.decTyped` | Proved |
 | T2 | Coercions are conservative: needed exactly on a type clash | `Check.clash-route-rejected`, `clash-ent-rejected`, `literal-accepted`, `clash-needs-route` | Proved |
@@ -39,9 +40,9 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 ## What the formal core does not cover
 
 * Truth of lexicon edges and of knowledge-base facts, and correctness of the scorer: these are empirical.
-* The raw certificate format covers predicate sentences with coerced arguments. Modes, equivalence derivations,
-  apartness witnesses, classes of readings and quantifiers are not yet part of the raw certificate; the
-  semantic theorems above exist, the certificate encoding of them does not.
+* The extended certificate (E1) covers Resolve, Retain, a family of readings, Conjoin and Three. Not covered:
+  exhaustiveness of a family (the bounded-classification certificate is not in the raw format), general numeral
+  quantifiers, and certification of which mode should be chosen.
 * The full T4, discourse dynamics, linear dot-types.
 
 ## Modules
@@ -70,6 +71,8 @@ hypothesis, or is weaker than the plan hoped, this is said explicitly.
 | `Metonymy.Reencode`, `ReencodeUA` | Re-encoding invariance, directly and by univalence (T15) |
 | `Metonymy.Counting` | Individuation through functions (T12, T13) |
 | `Metonymy.Quantified`, `QuantifiedRoutes` | Individuation through relational coercions and routes (T12) |
+| `Metonymy.Evidence`, `FamilyCert`, `ThreeCert`, `Cert` | Extended certificate (E1) |
+| `Metonymy.ExampleKB`, `CertExample` | Example lexicon, snapshot, and end-to-end certificate run |
 | `Metonymy.Coherence` | Coherence iff isProp of the readings, uniqueness iff contractibility (C1) |
 | `Metonymy.Instantiate` | Non-vacuity: parameterized modules instantiated, typed decision procedure computed |
 | `Metonymy.Image` | Counting in the image as a quotient (T14) |

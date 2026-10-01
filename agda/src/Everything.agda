@@ -39,3 +39,11 @@ open import Metonymy.NormalizeExampleBad
 -- Central correspondence (coherence iff isProp of the readings) and non-vacuity checks.
 import Metonymy.Coherence
 open import Metonymy.Instantiate
+
+-- Extended certificate: evidence for modes, readings and individuation, with an end-to-end example.
+import Metonymy.Evidence
+import Metonymy.FamilyCert
+import Metonymy.ThreeCert
+import Metonymy.Cert
+open import Metonymy.ExampleKB
+open import Metonymy.CertExample
