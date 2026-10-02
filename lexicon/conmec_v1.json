@@ -1,0 +1,169 @@
+{
+ "name": "ConMeC v1",
+ "comment": "Six metonymy types of ConMeC as coercions between sense sorts. One literal sort and one coerced sort per type, one coercion edge per type. No declared equivalences (rules) yet. Sorts and edges follow Pedinotti and Lenci (2020) as used by ConMeC.",
+ "sorts": [
+  "Container",
+  "Content",
+  "Creator",
+  "Output",
+  "Product",
+  "Maker",
+  "Place",
+  "LocatedThing",
+  "Causer",
+  "Result",
+  "Possessed",
+  "Possessor"
+ ],
+ "edges": [
+  {
+   "name": "contents",
+   "src": "Container",
+   "tgt": "Content",
+   "type": "CONTAINER",
+   "literal": "the container itself",
+   "reading": "the contents of the container, or an activity involving the contents"
+  },
+  {
+   "name": "output",
+   "src": "Creator",
+   "tgt": "Output",
+   "type": "PRODUCER",
+   "literal": "the producer itself (a person or an organization)",
+   "reading": "what the producer produced (their work, music, writing or other output)"
+  },
+  {
+   "name": "maker",
+   "src": "Product",
+   "tgt": "Maker",
+   "type": "PRODUCT",
+   "literal": "the product itself (a publication, programme or other product)",
+   "reading": "the people or organization that produce the product (its editors, authors, publisher)"
+  },
+  {
+   "name": "located",
+   "src": "Place",
+   "tgt": "LocatedThing",
+   "type": "LOCATION",
+   "literal": "the physical place",
+   "reading": "the people, institutions, activities or events located at the place"
+  },
+  {
+   "name": "result",
+   "src": "Causer",
+   "tgt": "Result",
+   "type": "CAUSER",
+   "literal": "the causer itself (an instrument, agent or thing)",
+   "reading": "the result or effect the causer brings about (for example the sound or music it produces)"
+  },
+  {
+   "name": "possessor",
+   "src": "Possessed",
+   "tgt": "Possessor",
+   "type": "POSSESSED",
+   "literal": "the possessed object itself",
+   "reading": "the person who possesses or uses the object"
+  }
+ ],
+ "rules": [],
+ "constants": [
+  {
+   "name": "targetContainer",
+   "sort": "Container"
+  },
+  {
+   "name": "targetCreator",
+   "sort": "Creator"
+  },
+  {
+   "name": "targetProduct",
+   "sort": "Product"
+  },
+  {
+   "name": "targetPlace",
+   "sort": "Place"
+  },
+  {
+   "name": "targetCauser",
+   "sort": "Causer"
+  },
+  {
+   "name": "targetPossessed",
+   "sort": "Possessed"
+  }
+ ],
+ "predicates": [
+  {
+   "name": "ctxContainer",
+   "sig": [
+    "Container"
+   ]
+  },
+  {
+   "name": "ctxContent",
+   "sig": [
+    "Content"
+   ]
+  },
+  {
+   "name": "ctxCreator",
+   "sig": [
+    "Creator"
+   ]
+  },
+  {
+   "name": "ctxOutput",
+   "sig": [
+    "Output"
+   ]
+  },
+  {
+   "name": "ctxProduct",
+   "sig": [
+    "Product"
+   ]
+  },
+  {
+   "name": "ctxMaker",
+   "sig": [
+    "Maker"
+   ]
+  },
+  {
+   "name": "ctxPlace",
+   "sig": [
+    "Place"
+   ]
+  },
+  {
+   "name": "ctxLocatedThing",
+   "sig": [
+    "LocatedThing"
+   ]
+  },
+  {
+   "name": "ctxCauser",
+   "sig": [
+    "Causer"
+   ]
+  },
+  {
+   "name": "ctxResult",
+   "sig": [
+    "Result"
+   ]
+  },
+  {
+   "name": "ctxPossessed",
+   "sig": [
+    "Possessed"
+   ]
+  },
+  {
+   "name": "ctxPossessor",
+   "sig": [
+    "Possessor"
+   ]
+  }
+ ]
+}

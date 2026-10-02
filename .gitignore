@@ -7,3 +7,8 @@ __pycache__/
 data/raw/
 *.jsonl
 !results/*.jsonl
+notebooks/
+results/colab_run1/
+results/colab_run2/
+results/pipeline_items*.jsonl
+agda/src/Metonymy/ConMeCBatch.agda
