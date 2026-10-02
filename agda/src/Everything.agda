@@ -47,3 +47,5 @@ import Metonymy.ThreeCert
 import Metonymy.Cert
 open import Metonymy.ExampleKB
 open import Metonymy.CertExample
+import Metonymy.ConMeCKB
+import Metonymy.ConMeCSnap
