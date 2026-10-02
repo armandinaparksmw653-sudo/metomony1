@@ -1,0 +1,73 @@
+{
+ "name": "Toponym v1",
+ "comment": "Location metonymy (ReLocaR, SemEval locations). Sorts: the place itself, the polities (executive or legislative bodies) acting for it, the sports teams representing it, and its people. Edges mirror Wikidata: P208 executive body, P194 legislative body, teams from P1532/P159 with a sport (P641), residents (always defined). No declared equivalences yet.",
+ "sorts": [
+  "Place",
+  "Polity",
+  "Team",
+  "People"
+ ],
+ "edges": [
+  {
+   "name": "exec",
+   "src": "Place",
+   "tgt": "Polity",
+   "wikidata": "P208",
+   "reading": "the executive government of the place"
+  },
+  {
+   "name": "legis",
+   "src": "Place",
+   "tgt": "Polity",
+   "wikidata": "P194",
+   "reading": "the legislature of the place"
+  },
+  {
+   "name": "team",
+   "src": "Place",
+   "tgt": "Team",
+   "wikidata": "P1532/P159",
+   "reading": "a sports team representing the place"
+  },
+  {
+   "name": "pop",
+   "src": "Place",
+   "tgt": "People",
+   "wikidata": "(always defined)",
+   "reading": "the people living in the place"
+  }
+ ],
+ "rules": [],
+ "constants": [
+  {
+   "name": "place",
+   "sort": "Place"
+  }
+ ],
+ "predicates": [
+  {
+   "name": "reqPlace",
+   "sig": [
+    "Place"
+   ]
+  },
+  {
+   "name": "reqPolity",
+   "sig": [
+    "Polity"
+   ]
+  },
+  {
+   "name": "reqTeam",
+   "sig": [
+    "Team"
+   ]
+  },
+  {
+   "name": "reqPeople",
+   "sig": [
+    "People"
+   ]
+  }
+ ]
+}
