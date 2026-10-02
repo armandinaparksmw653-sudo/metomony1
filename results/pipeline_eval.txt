@@ -1,0 +1,8 @@
+qwen2.5-7b     doc     n=5000  macro-F1 0.640 [0.625,0.655]  AUROC 0.698 [0.683,0.716]  retain 7.5%  acc resolve 0.743 / retain 0.507
+bert-base      doc     n=5000  macro-F1 0.823 [0.810,0.835]  AUROC 0.898 [0.887,0.910]  retain 7.9%  acc resolve 0.882 / retain 0.543
+qwen2.5-7b     target  n=6000  macro-F1 0.646 [0.633,0.659]  AUROC 0.702 [0.687,0.717]  retain 6.9%  acc resolve 0.737 / retain 0.495
+bert-base      target  n=6000  macro-F1 0.774 [0.764,0.786]  AUROC 0.851 [0.840,0.862]  retain 11.0%  acc resolve 0.851 / retain 0.551
+qwen2.5-7b     type    n=6000  macro-F1 0.636 [0.624,0.649]  AUROC 0.702 [0.689,0.718]  retain 6.9%  acc resolve 0.721 / retain 0.512
+    per-type AUROC: {'CONTAINER': 0.743, 'PRODUCER': 0.684, 'PRODUCT': 0.827, 'LOCATION': 0.849, 'CAUSER': 0.575, 'POSSESSED': 0.658}
+bert-base      type    n=6000  macro-F1 0.621 [0.606,0.635]  AUROC 0.661 [0.644,0.675]  retain 18.7%  acc resolve 0.730 / retain 0.576
+    per-type AUROC: {'CONTAINER': 0.682, 'PRODUCER': 0.661, 'PRODUCT': 0.744, 'LOCATION': 0.746, 'CAUSER': 0.605, 'POSSESSED': 0.693}
