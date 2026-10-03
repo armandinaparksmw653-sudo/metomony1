@@ -19,3 +19,4 @@ results/toponym_*.jsonl
 data/kb/wimcor_cands.json
 data/kb/wimcor_cands_named.json
 data/kb/wimcor_sample.json
+results/e4_input.jsonl
