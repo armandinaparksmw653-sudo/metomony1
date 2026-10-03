@@ -16,3 +16,6 @@ results/colab_run3/
 results/relocar_parse_results.zip
 agda/src/Metonymy/ToponymBatch.agda
 results/toponym_*.jsonl
+data/kb/wimcor_cands.json
+data/kb/wimcor_cands_named.json
+data/kb/wimcor_sample.json

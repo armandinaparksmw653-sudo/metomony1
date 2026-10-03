@@ -1,0 +1,9 @@
+Institute  gold in search space: 677/800 (85%); in search or located-name space: 763/800 (95%)
+Team       gold in search space: 261/500 (52%); in search or located-name space: 469/500 (94%)
+Artifact   gold in search space: 233/500 (47%); in search or located-name space: 288/500 (58%)
+Event      gold in search space: 140/200 (70%); in search or located-name space: 200/200 (100%)
+LOCATION   union space size: median 31, 90th pct 153, max 5086
+INSTITUTE  union space size: median 32, 90th pct 202, max 5086
+TEAM       union space size: median 43, 90th pct 193, max 672
+ARTIFACT   union space size: median 13, 90th pct 56, max 224
+EVENT      union space size: median 12, 90th pct 60, max 60
