@@ -23,6 +23,7 @@ class Lexicon:
     edge_id: dict = field(default_factory=dict)
     pred_id: dict = field(default_factory=dict)
     const_id: dict = field(default_factory=dict)
+    numeric_sort: str = None
 
     # -- candidates for a sentence about a noun whose literal sort is known (here via the ConMeC type)
     def literal_sort(self, type_name):
@@ -48,7 +49,10 @@ class Lexicon:
 
 def load(path=DEFAULT):
     d = json.load(open(path, encoding="utf-8"))
-    lex = Lexicon(d["name"], d["sorts"], d["edges"], d.get("rules", []), d["constants"], d["predicates"])
+    consts = d["constants"]
+    numeric = consts.get("numeric") if isinstance(consts, dict) else None
+    lex = Lexicon(d["name"], d["sorts"], d["edges"], d.get("rules", []), [] if numeric else consts, d["predicates"])
+    lex.numeric_sort = numeric     # constants are numbered by the knowledge base, not listed here
     validate(lex)
     lex.edge_id = {e["name"]: i for i, e in enumerate(lex.edges)}
     lex.pred_id = {p["name"]: i for i, p in enumerate(lex.predicates)}
@@ -81,7 +85,7 @@ def validate(lex):
             assert cur == r["tgt"], "rule %s: %s ends at the wrong sort" % (r["name"], side)
     # every literal sort used by a type must have a constant and every sort a unary predicate
     for e in lex.edges:
-        assert any(c["sort"] == e["src"] for c in lex.constants), "no constant of sort %s" % e["src"]
+        assert lex.numeric_sort == e["src"] or any(c["sort"] == e["src"] for c in lex.constants), "no constant of sort %s" % e["src"]
     for s in lex.sorts:
         assert any(p["sig"] == [s] for p in lex.predicates), "no unary predicate on sort %s" % s
 

@@ -38,12 +38,9 @@
   }
  ],
  "rules": [],
- "constants": [
-  {
-   "name": "place",
-   "sort": "Place"
-  }
- ],
+ "constants": {
+  "numeric": "Place"
+ },
  "predicates": [
   {
    "name": "reqPlace",

@@ -2298,6 +2298,26 @@
 "qid": "Q141237406",
 "label": "Nyamisata Jawneh",
 "sport": "athletics"
+},
+{
+"qid": "Q130705751",
+"label": "Gambia women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130453750",
+"label": "Gambia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q1402758",
+"label": "Gambia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q1492974",
+"label": "Gambia national cricket team",
+"sport": "national cricket team"
 }
 ],
 "executive": [
@@ -3322,6 +3342,31 @@
 "qid": "Q141561591",
 "label": "Karabo Mokete",
 "sport": "chess"
+},
+{
+"qid": "Q27147101",
+"label": "Lesotho national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q15734029",
+"label": "Lesotho men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q6531327",
+"label": "Lesotho Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6531366",
+"label": "Lesotho national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2259125",
+"label": "Lesotho national baseball team",
+"sport": "national baseball team"
 }
 ],
 "executive": [],
@@ -4482,6 +4527,26 @@
 "qid": "Q27827801",
 "label": "Ibrahim Chahrani",
 "sport": "chess"
+},
+{
+"qid": "Q66714979",
+"label": "Libya national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3873939",
+"label": "Libya national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1535577",
+"label": "Libya men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q431291",
+"label": "Libya national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [],
@@ -5949,6 +6014,41 @@
 "qid": "Q135368185",
 "label": "Domoina Natacha Andriatahina",
 "sport": "basketball"
+},
+{
+"qid": "Q27147102",
+"label": "Madagascar national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q85783028",
+"label": "Madagascar men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q131783393",
+"label": "Madagascar women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2358997",
+"label": "Madagascar national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q6726161",
+"label": "Madagascar national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q6726138",
+"label": "Madagascar Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q25409131",
+"label": "Madagascar national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [],
@@ -12266,6 +12366,76 @@
 "qid": "Q1559918",
 "label": "Rkia Moukim",
 "sport": "athletics"
+},
+{
+"qid": "Q27147108",
+"label": "Morocco national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q131783396",
+"label": "Morocco women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130523867",
+"label": "Morocco men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130225082",
+"label": "Morocco men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q2733519",
+"label": "Morocco national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q6913182",
+"label": "Morocco national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q6913183",
+"label": "Morocco national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q3590722",
+"label": "Morocco men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q2052563",
+"label": "Morocco Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6913180",
+"label": "Morocco national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1747052",
+"label": "Morocco national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1030849",
+"label": "Morocco men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q113835566",
+"label": "Morocco women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q6913179",
+"label": "Morocco men's national water polo team",
+"sport": "national water polo team"
 }
 ],
 "executive": [
@@ -14344,6 +14514,31 @@
 "qid": "Q140355028",
 "label": "Lourenco Napoleao",
 "sport": "chess"
+},
+{
+"qid": "Q27147109",
+"label": "Mozambique national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q20716752",
+"label": "Mozambique Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q17103087",
+"label": "Mozambique national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q12772011",
+"label": "Mozambique national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3297910",
+"label": "Mozambique national roller hockey team",
+"sport": "national roller hockey team"
 }
 ],
 "executive": [
@@ -15972,6 +16167,56 @@
 "qid": "Q141157725",
 "label": "Ernesto Hamuse",
 "sport": "basketball"
+},
+{
+"qid": "Q27147110",
+"label": "Namibia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q1248558",
+"label": "Namibia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q6961777",
+"label": "Namibia national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q585645",
+"label": "Namibia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1143003",
+"label": "Namibia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q124428556",
+"label": "Namibia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2543465",
+"label": "Namibia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q110128389",
+"label": "Namibia men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q110128744",
+"label": "Namibia women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q6961776",
+"label": "Namibia national netball team",
+"sport": "Q131785111"
 }
 ],
 "executive": [
@@ -28555,6 +28800,61 @@
 "qid": "Q20751622",
 "label": "Bernard Bulbwa",
 "sport": "association football"
+},
+{
+"qid": "Q1772900",
+"label": "Nigeria national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q131783398",
+"label": "Nigeria women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130427915",
+"label": "Nigeria men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3590742",
+"label": "Nigeria national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q7032856",
+"label": "Nigeria national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3590740",
+"label": "Nigeria men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q13118271",
+"label": "Nigeria national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1752133",
+"label": "Nigeria national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2556595",
+"label": "Nigeria national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q12638343",
+"label": "Nigeria men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q1919802",
+"label": "Nigeria women's national field hockey team",
+"sport": "national field hockey team"
 }
 ],
 "executive": [
@@ -35478,6 +35778,61 @@
 "qid": "Q136769966",
 "label": "Alpha Thierry Ssali",
 "sport": "association football"
+},
+{
+"qid": "Q21130168",
+"label": "Uganda national quidditch team",
+"sport": "national quidditch team"
+},
+{
+"qid": "Q27147126",
+"label": "Uganda national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30641591",
+"label": "Uganda women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130525012",
+"label": "Uganda men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3589850",
+"label": "Uganda national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q7877664",
+"label": "Uganda national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q52314489",
+"label": "Uganda Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q7877661",
+"label": "Uganda national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7877660",
+"label": "Uganda national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3543156",
+"label": "Uganda men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q7877663",
+"label": "Uganda national netball team",
+"sport": "Q131785111"
 }
 ],
 "executive": [
@@ -37816,6 +38171,36 @@
 "qid": "Q141237435",
 "label": "Magnifique Umutesiwase",
 "sport": "athletics"
+},
+{
+"qid": "Q130054020",
+"label": "Rwanda women's sitting national volleyball team",
+"sport": "women's national team"
+},
+{
+"qid": "Q131783399",
+"label": "Rwanda women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130524757",
+"label": "Rwanda men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3590772",
+"label": "Rwanda national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1527089",
+"label": "Rwanda national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q7383737",
+"label": "Rwanda national cricket team",
+"sport": "national cricket team"
 }
 ],
 "executive": [
@@ -38660,6 +39045,21 @@
 "qid": "Q65621871",
 "label": "Jimmy Ernesta",
 "sport": "badminton"
+},
+{
+"qid": "Q1292979",
+"label": "Seychelles men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q7458962",
+"label": "Seychelles national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q27147111",
+"label": "Seychelles national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [],
@@ -39362,6 +39762,21 @@
 "qid": "Q141504865",
 "label": "Kalie Sesay",
 "sport": "athletics"
+},
+{
+"qid": "Q7511441",
+"label": "Sierra Leone national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2481762",
+"label": "Sierra Leone national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q27147113",
+"label": "Sierra Leone national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [],
@@ -39789,6 +40204,16 @@
 "qid": "Q141270363",
 "label": "Abdulkadir Mohamed Warsame",
 "sport": "chess"
+},
+{
+"qid": "Q25409101",
+"label": "Somalia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q27147114",
+"label": "Somalia national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [
@@ -40557,6 +40982,11 @@
 "qid": "Q141581375",
 "label": "Sabreen Oraby",
 "sport": "chess"
+},
+{
+"qid": "Q15742909",
+"label": "Sudan national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [],
@@ -53675,6 +54105,71 @@
 "qid": "Q140422556",
 "label": "Erastus Kemei",
 "sport": "athletics"
+},
+{
+"qid": "Q728350",
+"label": "Kenya national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q967975",
+"label": "Kenya men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q962832",
+"label": "Kenya Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1706956",
+"label": "Kenya national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q3301148",
+"label": "Kenya national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q18387761",
+"label": "Kenya national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q24236357",
+"label": "Kenya national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q27147099",
+"label": "Kenya national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q12634410",
+"label": "Kenya women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q64597265",
+"label": "Kenya men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q130461538",
+"label": "Kenya men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q131783390",
+"label": "Kenya women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q138536696",
+"label": "Kenya national baseball team",
+"sport": "national baseball team"
 }
 ],
 "executive": [
@@ -58118,6 +58613,21 @@
 "qid": "Q136304724",
 "label": "Yohannes Tefera",
 "sport": "athletics"
+},
+{
+"qid": "Q27147091",
+"label": "Ethiopia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q5403517",
+"label": "Ethiopia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q141186023",
+"label": "Ethiopia women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -63419,6 +63929,61 @@
 "qid": "Q26207448",
 "label": "Michael Kafari",
 "sport": "association football"
+},
+{
+"qid": "Q27147093",
+"label": "Ghana national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3590669",
+"label": "Ghana national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q18344376",
+"label": "Ghana national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q1521395",
+"label": "Ghana men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q130459555",
+"label": "Ghana men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130705768",
+"label": "Ghana women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q5555433",
+"label": "Ghana national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q5555445",
+"label": "Ghana national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q870635",
+"label": "Ghana national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2360480",
+"label": "Ghana men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q12631362",
+"label": "Ghana women's national field hockey team",
+"sport": "national field hockey team"
 }
 ],
 "executive": [
@@ -72208,6 +72773,16 @@
 "qid": "Q7258829",
 "label": "Puerto Rico women's national handball team",
 "sport": "handball"
+},
+{
+"qid": "Q85794987",
+"label": "Puerto Rico men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130425660",
+"label": "Puerto Rico women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -74991,6 +75566,46 @@
 "qid": "Q140672579",
 "label": "Rubin Shala",
 "sport": "basketball"
+},
+{
+"qid": "Q30646160",
+"label": "Kosovo national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q66714978",
+"label": "Kosovo national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q117196113",
+"label": "Kosovo national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q10369592",
+"label": "Kosovo men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q25438087",
+"label": "Kosovo women's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q65053263",
+"label": "Kosovo men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q23013698",
+"label": "Kosovo Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q28740597",
+"label": "Kosovo national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [
@@ -87967,6 +88582,16 @@
 "qid": "Q134238028",
 "label": "Carlo Niestädt",
 "sport": "athletics"
+},
+{
+"qid": "Q1622752",
+"label": "German Democratic Republic national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q799663",
+"label": "GDR national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [
@@ -141668,6 +142293,181 @@
 "qid": "Q138604608",
 "label": "Junya Hiwatashi",
 "sport": "badminton"
+},
+{
+"qid": "Q1090946",
+"label": "Japan national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q1122433",
+"label": "Japan national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q962145",
+"label": "Japan national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1226007",
+"label": "Japan men's national floorball team",
+"sport": "national floorball team"
+},
+{
+"qid": "Q1683279",
+"label": "Japan Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3449861",
+"label": "Japan women's national softball team",
+"sport": "women's national team"
+},
+{
+"qid": "Q3590678",
+"label": "Japan women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q5956852",
+"label": "Japan national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q6158001",
+"label": "Japan men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q6158010",
+"label": "Japan national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6158052",
+"label": "Japan women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q6157999",
+"label": "Japan men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q6158034",
+"label": "Japan national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q11346715",
+"label": "Japan national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q11482818",
+"label": "2006 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q11482822",
+"label": "2007 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q11482830",
+"label": "2009 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q11482836",
+"label": "2010 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q11482842",
+"label": "2011 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q11482847",
+"label": "2012 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q11548973",
+"label": "Japan women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q15733872",
+"label": "Japan men's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733995",
+"label": "Japan women's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16145444",
+"label": "2013 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q17994632",
+"label": "Japan men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q18700144",
+"label": "2014 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q21857332",
+"label": "2015 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q28154052",
+"label": "Japan national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q39058687",
+"label": "Japan women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q56275315",
+"label": "Japan women's national beach handball team",
+"sport": "women's national team"
+},
+{
+"qid": "Q120122085",
+"label": "2023 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q124357207",
+"label": "2024 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130225080",
+"label": "Japan men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q132084769",
+"label": "2025 Japanese national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q137950148",
+"label": "2026 Japanese national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [
@@ -283088,6 +283888,36 @@
 "qid": "Q135362724",
 "label": "Benony Svanur Sigurdsson",
 "sport": "basketball"
+},
+{
+"qid": "Q427358",
+"label": "Iceland Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q5985730",
+"label": "Iceland national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q5985728",
+"label": "Iceland men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2273047",
+"label": "Iceland national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q27146483",
+"label": "Iceland national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q55614264",
+"label": "Iceland national cricket team",
+"sport": "national cricket team"
 }
 ],
 "executive": [
@@ -321696,6 +322526,61 @@
 "qid": "Q124337988",
 "label": "Kaia Kulla",
 "sport": "competitive swimming"
+},
+{
+"qid": "Q1968284",
+"label": "Estonia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1370299",
+"label": "Estonia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1370294",
+"label": "Estonia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1621823",
+"label": "Estonia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q9306753",
+"label": "Estonia national ski jumping team",
+"sport": "national ski jumping team"
+},
+{
+"qid": "Q5401506",
+"label": "Estonia national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q5401500",
+"label": "Estonia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q5401492",
+"label": "Estonia men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q27146314",
+"label": "Estonia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q55611063",
+"label": "Estonia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q96377413",
+"label": "Estonia women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -322191,7 +323076,83 @@
 "legislative": []
 },
 "Q215": {
-"teams": [],
+"teams": [
+{
+"qid": "Q134887",
+"label": "Slovenia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1575489",
+"label": "Slovenia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2169902",
+"label": "Slovenia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2332289",
+"label": "Slovenia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q7541774",
+"label": "Slovenia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7541773",
+"label": "Slovenia men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q18128216",
+"label": "Slovenia women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q27146519",
+"label": "Slovenia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q27963014",
+"label": "Slovenia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28434818",
+"label": "Slovenia national football B team",
+"sport": "national association football team"
+},
+{
+"qid": "Q96405848",
+"label": "Slovenia women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q86990347",
+"label": "Slovenia national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q132173817",
+"label": "Slovenia women's national futsal team",
+"sport": "women's national team"
+},
+{
+"qid": "Q110630442",
+"label": "Slovenia women's national beach handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q130369450",
+"label": "Slovenia women's national 3x3 team",
+"sport": "national basketball team"
+}
+],
 "executive": [
 {
 "qid": "Q1264458",
@@ -322213,7 +323174,68 @@
 "legislative": []
 },
 "Q217": {
-"teams": [],
+"teams": [
+{
+"qid": "Q1649731",
+"label": "Moldova men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q1943352",
+"label": "Moldova national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2644652",
+"label": "Moldova national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3499103",
+"label": "Moldova men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2429578",
+"label": "Moldova national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3967383",
+"label": "Moldova Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6895809",
+"label": "Moldova national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q6895810",
+"label": "Moldova national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q99646720",
+"label": "Moldova national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q30646159",
+"label": "Moldova national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q16919775",
+"label": "Moldova women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q27146502",
+"label": "Moldova national badminton team",
+"sport": "national badminton team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -322224,7 +323246,78 @@
 ]
 },
 "Q218": {
-"teams": [],
+"teams": [
+{
+"qid": "Q134875",
+"label": "Romania national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q967505",
+"label": "Romania national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1973370",
+"label": "Romania Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3047533",
+"label": "Romania national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q7362514",
+"label": "Romania national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7362511",
+"label": "Romania national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7362508",
+"label": "Romania men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q18127592",
+"label": "Romania men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q18127595",
+"label": "Romania women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q30893217",
+"label": "U18",
+"sport": "national basketball team"
+},
+{
+"qid": "Q21130178",
+"label": "Transylvania national quidditch team",
+"sport": "national quidditch team"
+},
+{
+"qid": "Q27146511",
+"label": "Romania national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646726",
+"label": "Romania national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q121010697",
+"label": "Romania national rowing team",
+"sport": "national rowing team"
+}
+],
 "executive": [
 {
 "qid": "Q2528718",
@@ -322267,7 +323360,83 @@
 "legislative": []
 },
 "Q219": {
-"teams": [],
+"teams": [
+{
+"qid": "Q431717",
+"label": "Bulgaria national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2388884",
+"label": "Bulgaria national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1769168",
+"label": "Bulgaria Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2738050",
+"label": "Bulgaria national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q4996172",
+"label": "Bulgaria national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q4996169",
+"label": "Bulgaria men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q21130157",
+"label": "Bulgaria national quidditch team",
+"sport": "national quidditch team"
+},
+{
+"qid": "Q21661562",
+"label": "Bulgaria women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q18128203",
+"label": "Bulgaria women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q18639143",
+"label": "Bulgaria men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q26722120",
+"label": "Bulgaria national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30644395",
+"label": "Bulgaria men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q48837106",
+"label": "Bulgaria national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q99646703",
+"label": "Bulgaria national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q130336120",
+"label": "Bulgaria women's national 3x3 team",
+"sport": "national basketball team"
+}
+],
 "executive": [
 {
 "qid": "Q2396053",
@@ -322284,7 +323453,13 @@
 ]
 },
 "Q22": {
-"teams": [],
+"teams": [
+{
+"qid": "Q141133703",
+"label": "Scotland women's national 3x3 team",
+"sport": "national basketball team"
+}
+],
 "executive": [
 {
 "qid": "Q32521",
@@ -328103,6 +329278,41 @@
 "qid": "Q135387879",
 "label": "Toni Gacov",
 "sport": "basketball"
+},
+{
+"qid": "Q600150",
+"label": "North Macedonia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1042032",
+"label": "Macedonia men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q2606005",
+"label": "North Macedonia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q2738056",
+"label": "Macedonia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q6723099",
+"label": "Macedonia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q30460210",
+"label": "Selección de fútbol sub-23 de Macedonia",
+"sport": "national association football team"
+},
+{
+"qid": "Q27146498",
+"label": "North Macedonia national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [
@@ -334022,6 +335232,26 @@
 "qid": "Q1209748",
 "label": "Olympic Committee of Albania",
 "sport": "Olympic sport"
+},
+{
+"qid": "Q2738035",
+"label": "Albania national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3511766",
+"label": "Albania national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q27146291",
+"label": "Albania national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30681107",
+"label": "Albania national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [],
@@ -347534,6 +348764,86 @@
 "qid": "Q82113453",
 "label": "Velimir Šandor",
 "sport": "athletics"
+},
+{
+"qid": "Q534741",
+"label": "Croatia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q134890",
+"label": "Croatia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2078913",
+"label": "Croatia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2198732",
+"label": "Croatia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2567970",
+"label": "Croatia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1789617",
+"label": "Croatia women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q3512180",
+"label": "Croatia men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3513095",
+"label": "Croatia women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q5187075",
+"label": "Croatia national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q5187071",
+"label": "Croatia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q5187067",
+"label": "Croatia men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q12632532",
+"label": "Croatia women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q27146307",
+"label": "Croatia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q55608573",
+"label": "Croatia women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q110305026",
+"label": "Croatia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q131990976",
+"label": "Croatia women's national futsal team",
+"sport": "women's national team"
 }
 ],
 "executive": [
@@ -354607,6 +355917,61 @@
 "qid": "Q141436007",
 "label": "Anes Mašić",
 "sport": "association football"
+},
+{
+"qid": "Q27146305",
+"label": "Bosnia and Herzegovina national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q2017864",
+"label": "Bosnia and Herzegovina Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1644840",
+"label": "Bosnia and Herzegovina national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q111915597",
+"label": "Bosnia and Herzegovina women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q125783301",
+"label": "Bosnia and Herzegovina men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q130320887",
+"label": "Bosnia and Herzegovina men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28408364",
+"label": "Bosnia and Herzegovina men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q374255",
+"label": "Bosnia and Herzegovina national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q4947359",
+"label": "Bosnia and Herzegovina national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q18378754",
+"label": "Bosnia and Herzegovina national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q669919",
+"label": "Bosnia and Herzegovina men's national volleyball team",
+"sport": "national volleyball team"
 }
 ],
 "executive": [
@@ -361511,6 +362876,71 @@
 "qid": "Q109382124",
 "label": "Nurtaj Heydarli",
 "sport": "chess"
+},
+{
+"qid": "Q27146298",
+"label": "Azerbaijan national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3967355",
+"label": "Azerbaijan Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q134879",
+"label": "Azerbaijan national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q125101709",
+"label": "Azerbaijan men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q127417698",
+"label": "Azerbaijan women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130251995",
+"label": "Azerbaijan men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q117259996",
+"label": "Azerbaijan national minifootball team",
+"sport": "national association football team"
+},
+{
+"qid": "Q1971443",
+"label": "Azerbaijan women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q30646152",
+"label": "Azerbaijan national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q39045997",
+"label": "Azerbaijan men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q19361519",
+"label": "Azerbaijan women's national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q2332838",
+"label": "Azerbaijan national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2397161",
+"label": "Azerbaijan men's national volleyball team",
+"sport": "national volleyball team"
 }
 ],
 "executive": [],
@@ -364518,6 +365948,66 @@
 "qid": "Q136382245",
 "label": "Sara Gelabert",
 "sport": "basketball"
+},
+{
+"qid": "Q4754569",
+"label": "Andorra men's national pitch and putt team",
+"sport": "Pitch and putt national team"
+},
+{
+"qid": "Q47487912",
+"label": "Andorra Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q23013452",
+"label": "Andorra women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q24969959",
+"label": "Andorra men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2481050",
+"label": "Andorra national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1399949",
+"label": "Andorra men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q131605957",
+"label": "Andorra women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q4754570",
+"label": "Andorra national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q3390737",
+"label": "Andorra national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q473372",
+"label": "Andorra national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q16821495",
+"label": "Andorra national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q492709",
+"label": "Andorra men's national volleyball team",
+"sport": "national volleyball team"
 }
 ],
 "executive": [
@@ -371111,6 +372601,61 @@
 "qid": "Q117805221",
 "label": "Panayiotis Adamou",
 "sport": "badminton"
+},
+{
+"qid": "Q27146310",
+"label": "Cyprus national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q429674",
+"label": "Cyprus Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q5200531",
+"label": "Cyprus national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2679082",
+"label": "Cyprus national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q130323829",
+"label": "Cyprus men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130369109",
+"label": "Cyprus women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2439993",
+"label": "Cyprus national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q21662186",
+"label": "Cyprus men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q675856",
+"label": "Cyprus national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q5200494",
+"label": "Cyprus Sevens Team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q596692",
+"label": "Cyprus men's national volleyball team",
+"sport": "national volleyball team"
 }
 ],
 "executive": [
@@ -384870,6 +386415,76 @@
 "qid": "Q60830629",
 "label": "Sergey Morozov",
 "sport": "association football"
+},
+{
+"qid": "Q131412036",
+"label": "Kazakhstan women's national futsal team",
+"sport": "women's national team"
+},
+{
+"qid": "Q27146772",
+"label": "Kazakhstan national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q2045975",
+"label": "Kazakhstan Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q135090",
+"label": "Kazakhstan national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2159845",
+"label": "Kazakhstan men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q55615767",
+"label": "Kazakhstan women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q110303813",
+"label": "Kazakhstan men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q1916398",
+"label": "Kazakhstan national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1944955",
+"label": "Kazakhstan men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3873688",
+"label": "Kazakhstan women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q4179406",
+"label": "Kazakhstan women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q1268090",
+"label": "Kazakhstan national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q6380826",
+"label": "Kazakhstan national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q1410139",
+"label": "Kazakhstan men's national volleyball team",
+"sport": "national volleyball team"
 }
 ],
 "executive": [
@@ -390128,6 +391743,61 @@
 "qid": "Q140999869",
 "label": "Paul Galea",
 "sport": "snooker"
+},
+{
+"qid": "Q27146500",
+"label": "Malta national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q2120049",
+"label": "Malta Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6744738",
+"label": "Malta national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2481039",
+"label": "Malta national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2240949",
+"label": "Malta national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q141134625",
+"label": "Malta women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q1441504",
+"label": "Malta men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3433652",
+"label": "Malta national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q19577260",
+"label": "Malta national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q1403018",
+"label": "Malta national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q6744739",
+"label": "Malta national rugby league team",
+"sport": "national rugby league team"
 }
 ],
 "executive": [
@@ -391993,6 +393663,16 @@
 "qid": "Q140468563",
 "label": "Joyden Salonga",
 "sport": "basketball"
+},
+{
+"qid": "Q66714982",
+"label": "Monaco national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q1608682",
+"label": "Monaco national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [
@@ -396808,6 +398488,41 @@
 "qid": "Q135375602",
 "label": "Gordana Spajic",
 "sport": "basketball"
+},
+{
+"qid": "Q27146504",
+"label": "Montenegro national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3967384",
+"label": "Montenegro Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2738064",
+"label": "Montenegro national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q130323871",
+"label": "Montenegro men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q19544546",
+"label": "Montenegro national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q18639691",
+"label": "Montenegro national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q1640644",
+"label": "Montenegro men's national volleyball team",
+"sport": "national volleyball team"
 }
 ],
 "executive": [
@@ -404325,6 +406040,56 @@
 "qid": "Q18640447",
 "label": "Lissette Cuza",
 "sport": "athletics"
+},
+{
+"qid": "Q60768",
+"label": "Cuba singa futsal",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1155814",
+"label": "Cuba national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q5191979",
+"label": "Cuba men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q5191980",
+"label": "Cuba national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q3967365",
+"label": "Cuba Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3589942",
+"label": "Cuba women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3873702",
+"label": "Cuba women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q16953135",
+"label": "Cuba women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q19577009",
+"label": "Cuba women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q27147031",
+"label": "Cuba national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [
@@ -406123,6 +407888,61 @@
 "qid": "Q140958614",
 "label": "Jayden Green",
 "sport": "athletics"
+},
+{
+"qid": "Q16966544",
+"label": "Barbados national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q27147020",
+"label": "Barbados national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q1632899",
+"label": "Barbados national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q912881",
+"label": "West Indies cricket team",
+"sport": "multinational sports team"
+},
+{
+"qid": "Q3590492",
+"label": "Barbados men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q3967356",
+"label": "Barbados Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3590497",
+"label": "Barbados national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2542344",
+"label": "Barbados men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3873696",
+"label": "Barbados women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q4858650",
+"label": "Barbados national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q123478131",
+"label": "Barbados men's national handball team",
+"sport": "national handball team"
 }
 ],
 "executive": [
@@ -426334,6 +428154,11 @@
 "qid": "Q89130448",
 "label": "Percy Hughes",
 "sport": "association football"
+},
+{
+"qid": "Q7961829",
+"label": "Wales national netball team",
+"sport": "Q131785111"
 }
 ],
 "executive": [
@@ -441972,6 +443797,86 @@
 "qid": "Q138291859",
 "label": "Andriyani Nurul",
 "sport": "badminton"
+},
+{
+"qid": "Q1107146",
+"label": "Indonesia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q2120220",
+"label": "Indonesia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2116873",
+"label": "Indonesia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2215773",
+"label": "Indonesia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3589800",
+"label": "Indonesia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3589802",
+"label": "Indonesia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q6026021",
+"label": "Indonesia national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q6025997",
+"label": "Indonesia men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q6026008",
+"label": "Indonesia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q15534194",
+"label": "Indonesia women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q16965836",
+"label": "Indonesia women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q25344932",
+"label": "Indonesia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28163745",
+"label": "Indonesia women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28219558",
+"label": "Indonesia men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q110627105",
+"label": "Indonesia women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q111949270",
+"label": "Indonesia men's national junior ice hockey team",
+"sport": "national ice hockey team"
 }
 ],
 "executive": [
@@ -455112,6 +457017,126 @@
 "qid": "Q23008172",
 "label": "Mihlali Mayambela",
 "sport": "association football"
+},
+{
+"qid": "Q3589628",
+"label": "South Africa national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3589638",
+"label": "South Africa national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q2176770",
+"label": "South Africa national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1164166",
+"label": "South Africa Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1161773",
+"label": "South Africa women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1317379",
+"label": "South Africa men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1423651",
+"label": "South Africa national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1752084",
+"label": "South Africa national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q663917",
+"label": "South Africa men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q7321064",
+"label": "Rhodesia cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7565397",
+"label": "South Africa national development football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q7565362",
+"label": "South Africa A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7565394",
+"label": "South Africa men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q7565405",
+"label": "South Africa national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q3331380",
+"label": "South Africa national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q14327251",
+"label": "South Africa women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q17012549",
+"label": "South Africa women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15623981",
+"label": "South Africa national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q17087005",
+"label": "South Africa President's XV",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q20981974",
+"label": "South African Universities rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q16238366",
+"label": "South Africa men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q30680613",
+"label": "South Africa national blind cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q48791871",
+"label": "South Africa national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q121010702",
+"label": "South Africa national rowing team",
+"sport": "national rowing team"
 }
 ],
 "executive": [
@@ -459570,6 +461595,11 @@
 "qid": "Q111288450",
 "label": "Oliver Crewe",
 "sport": "Gaelic football"
+},
+{
+"qid": "Q16258063",
+"label": "Northern Ireland national netball team",
+"sport": "Q131785111"
 }
 ],
 "executive": [
@@ -465473,6 +467503,51 @@
 "qid": "Q135374436",
 "label": "Ramdane Belhadj",
 "sport": "basketball"
+},
+{
+"qid": "Q1675847",
+"label": "Algeria men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q2054390",
+"label": "Algeria Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2031342",
+"label": "Algeria men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2573690",
+"label": "Algeria national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q932912",
+"label": "Algeria national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q4724065",
+"label": "Algeria men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q27147072",
+"label": "Algeria national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q125510531",
+"label": "Algeria men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130549702",
+"label": "Algeria women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -481263,6 +483338,131 @@
 "qid": "Q7088354",
 "label": "Ollie Moran",
 "sport": "hurling"
+},
+{
+"qid": "Q137660",
+"label": "Ireland cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q599903",
+"label": "Ireland men’s national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1672789",
+"label": "Ireland women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1672803",
+"label": "Ireland men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q762483",
+"label": "Ireland women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q2694530",
+"label": "Ireland national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1973322",
+"label": "Ireland Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3873889",
+"label": "Ireland men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q2571467",
+"label": "Republic of Ireland national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3589812",
+"label": "Ireland national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q6068681",
+"label": "Ireland national schoolboy rugby union team",
+"sport": "national youth sports team"
+},
+{
+"qid": "Q6068656",
+"label": "Ireland men's national pitch and putt team",
+"sport": "Pitch and putt national team"
+},
+{
+"qid": "Q6068670",
+"label": "Ireland national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q15310411",
+"label": "Ireland men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q7487669",
+"label": "Shamrock Warriors RFC",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7902223",
+"label": "Ireland national rugby union sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q17153081",
+"label": "Emerging Ireland",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q21130156",
+"label": "Ireland national quidditch team",
+"sport": "national quidditch team"
+},
+{
+"qid": "Q28232195",
+"label": "Northern Ireland national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q28233018",
+"label": "Ireland national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28233021",
+"label": "Ireland women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q22084023",
+"label": "Ireland A national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q26722119",
+"label": "Ireland national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q48815954",
+"label": "Ireland A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q121010612",
+"label": "Ireland national rowing team",
+"sport": "national rowing team"
 }
 ],
 "executive": [
@@ -507573,6 +509773,81 @@
 "qid": "Q141621300",
 "label": "Barnabás Bíró",
 "sport": "association football"
+},
+{
+"qid": "Q134878",
+"label": "Hungary national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q952876",
+"label": "Hungary national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q5943161",
+"label": "Hungary National Rugby League Team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q5943164",
+"label": "Hungary national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q5943154",
+"label": "Hungary national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2569433",
+"label": "Hungary men’s national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2493421",
+"label": "Hungary men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1973352",
+"label": "Hungary Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3513403",
+"label": "Hungary men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q18128208",
+"label": "Hungary women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q27146481",
+"label": "Hungary national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30633074",
+"label": "Hungary men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q30633137",
+"label": "Hungary women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q121010591",
+"label": "Hungary national rowing team",
+"sport": "national rowing team"
+},
+{
+"qid": "Q131104155",
+"label": "Hungary women's national futsal team",
+"sport": "women's national team"
 }
 ],
 "executive": [
@@ -507640,7 +509915,203 @@
 "legislative": []
 },
 "Q29": {
-"teams": [],
+"teams": [
+{
+"qid": "Q250783",
+"label": "Spain national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q72523",
+"label": "Spain Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q84117",
+"label": "Spain national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q888637",
+"label": "Spain women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q810373",
+"label": "Basque Country national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q938076",
+"label": "Catalonia men's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1317023",
+"label": "Spain national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1534242",
+"label": "Catalonia national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1575469",
+"label": "Spain women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1634654",
+"label": "Catalonia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2500163",
+"label": "Spain national beach soccer team",
+"sport": "men's national team"
+},
+{
+"qid": "Q2305617",
+"label": "Aragon national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q2478445",
+"label": "Catalonia national korfball team",
+"sport": "Q60050694"
+},
+{
+"qid": "Q3132999",
+"label": "Spain national roller hockey team",
+"sport": "men's national team"
+},
+{
+"qid": "Q3589786",
+"label": "Spain men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q3589926",
+"label": "Catalonia national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q5051343",
+"label": "Catalonia women's national futsal team",
+"sport": "women's national team"
+},
+{
+"qid": "Q5051341",
+"label": "Catalonia national basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q5051344",
+"label": "España",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q4894585",
+"label": "Catalonia men's roller hockey team",
+"sport": "men's national team"
+},
+{
+"qid": "Q6124037",
+"label": "Spain women's national rhythmic gymnastics team",
+"sport": "women's national team"
+},
+{
+"qid": "Q7572919",
+"label": "Spain men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q7572934",
+"label": "Spain national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7572921",
+"label": "Spain national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7572942",
+"label": "Spain women's national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q12400230",
+"label": "Galicia national basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q16920957",
+"label": "Spain women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q17054850",
+"label": "Spain national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q18128269",
+"label": "Spain men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q18128273",
+"label": "Spain women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q20977930",
+"label": "Catalonia women's national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q25091456",
+"label": "Galicia women's national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q25064149",
+"label": "Spain national junior handball team",
+"sport": "men's national team"
+},
+{
+"qid": "Q27146520",
+"label": "Spain national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q28226324",
+"label": "Spain national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q48837863",
+"label": "Spain national basketball team head to head",
+"sport": "national basketball team"
+},
+{
+"qid": "Q86915746",
+"label": "Spain national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q99646624",
+"label": "Spain men's national padel team",
+"sport": "national padel team"
+},
+{
+"qid": "Q119286529",
+"label": "Catalonia women's national basketball team",
+"sport": "national basketball team"
+}
+],
 "executive": [
 {
 "qid": "Q1194749",
@@ -507677,7 +510148,108 @@
 "legislative": []
 },
 "Q298": {
-"teams": [],
+"teams": [
+{
+"qid": "Q5098696",
+"label": "Chile men's national pitch and putt team",
+"sport": "Pitch and putt national team"
+},
+{
+"qid": "Q27147026",
+"label": "Chile national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q5098697",
+"label": "Chile national basketball team rosters",
+"sport": "national basketball team"
+},
+{
+"qid": "Q113127410",
+"label": "Chile men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q113624753",
+"label": "Chile women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q86991484",
+"label": "Chili national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q334657",
+"label": "Chile national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q25220888",
+"label": "Chile national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q9075769",
+"label": "Chile national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q1072874",
+"label": "Chile men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q1710214",
+"label": "Chile Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q5098705",
+"label": "Chile national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q135095",
+"label": "Chile national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q99646871",
+"label": "Chile men's national padel team",
+"sport": "national padel team"
+},
+{
+"qid": "Q2080395",
+"label": "Chile national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q11723721",
+"label": "Chile men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q118875613",
+"label": "Chile women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q5098716",
+"label": "Chile national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q2342527",
+"label": "Chile women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q4354373",
+"label": "Chile men's national field hockey team",
+"sport": "national field hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q29077203",
@@ -507694,7 +510266,328 @@
 ]
 },
 "Q30": {
-"teams": [],
+"teams": [
+{
+"qid": "Q110794572",
+"label": "Puerto Rico women's national ice hockey team",
+"sport": "women's national team"
+},
+{
+"qid": "Q270203",
+"label": "Guam men's national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q334526",
+"label": "United States women's national soccer team",
+"sport": "national association football team"
+},
+{
+"qid": "Q24902115",
+"label": "All Americans rugby union team",
+"sport": "national youth sports team"
+},
+{
+"qid": "Q372930",
+"label": "United States national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q28172950",
+"label": "United States national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q7892597",
+"label": "United States national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q27147060",
+"label": "Puerto Rico national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q27147136",
+"label": "Guam national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q27147148",
+"label": "Northern Marianas national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q1944213",
+"label": "United States men's national curling team",
+"sport": "Q137384062"
+},
+{
+"qid": "Q3954846",
+"label": "Northern Mariana Islands national basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q18158988",
+"label": "USA Women's 3x3 Teams",
+"sport": "national basketball team"
+},
+{
+"qid": "Q7892549",
+"label": "United States men's Paralympic soccer team",
+"sport": "national association football team"
+},
+{
+"qid": "Q28449494",
+"label": "Guam men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q27629763",
+"label": "United States national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q65050638",
+"label": "United States men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q86989077",
+"label": "USA national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q99646740",
+"label": "Guam national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q637404",
+"label": "Guam national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1143805",
+"label": "United States national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q55636570",
+"label": "United States National Women's Rowing Team",
+"sport": "national rowing team"
+},
+{
+"qid": "Q3590565",
+"label": "United States national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q4744894",
+"label": "American Samoa national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q5613460",
+"label": "Guam national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7892605",
+"label": "United States national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q2060778",
+"label": "Puerto Rico men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q15733874",
+"label": "United States men's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733909",
+"label": "Puerto Rico women's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q5613454",
+"label": "Guam men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733993",
+"label": "United States women's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16238108",
+"label": "Northern Mariana Islands men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16238204",
+"label": "Puerto Rico men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16238502",
+"label": "United States men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q17009945",
+"label": "Puerto Rico women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q1619662",
+"label": "United States Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3967390",
+"label": "Puerto Rico Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q7892299",
+"label": "United States Wightman Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2738955",
+"label": "United States national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q60835",
+"label": "United States national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q7892277",
+"label": "United States Virgin Islands cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q5613458",
+"label": "Guam national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2654269",
+"label": "United States men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q4620016",
+"label": "2010–11 United States women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q4624365",
+"label": "2011–12 United States women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1330164",
+"label": "United States national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1943587",
+"label": "American Samoa national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1980960",
+"label": "Northern Mariana Islands national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2081989",
+"label": "Guam national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q738872",
+"label": "Puerto Rico national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q64597264",
+"label": "Puerto Rico men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2538930",
+"label": "U.S. Virgin Islands national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3590317",
+"label": "Puerto Rico women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3590564",
+"label": "United States women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q21662161",
+"label": "Puerto Rico women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3713549",
+"label": "Puerto Rico men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q2702759",
+"label": "Puerto Rico men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q85794991",
+"label": "Puerto Rico women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q131939899",
+"label": "United States women's national junior water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q132146942",
+"label": "United States men's national junior water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q133094099",
+"label": "United States women's national cadet water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q133190223",
+"label": "United States men's national cadet water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q3514945",
+"label": "United States women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q11948106",
+"label": "United States national roller hockey team",
+"sport": "national roller hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q48525",
@@ -507737,7 +510630,93 @@
 "legislative": []
 },
 "Q31": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27146304",
+"label": "Belgium national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30589676",
+"label": "Belgium men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q30589869",
+"label": "Belgium women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q86916217",
+"label": "Belgium national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q335062",
+"label": "Belgium national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q116693818",
+"label": "Belgian Sharks",
+"sport": "national rowing team"
+},
+{
+"qid": "Q4882619",
+"label": "Belgium national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3589912",
+"label": "Belgium national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q2631742",
+"label": "Belgium men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16275067",
+"label": "Belgium women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q815508",
+"label": "Belgium Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2316127",
+"label": "Belgium national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q116711",
+"label": "Belgium national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q4882616",
+"label": "Belgium men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q815505",
+"label": "Belgium women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2134238",
+"label": "Belgium national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q16275069",
+"label": "Belgium women's national water polo team",
+"sport": "national water polo team"
+}
+],
 "executive": [
 {
 "qid": "Q390947",
@@ -507764,7 +510743,73 @@
 "legislative": []
 },
 "Q32": {
-"teams": [],
+"teams": [
+{
+"qid": "Q21130166",
+"label": "Luxembourg national quidditch team",
+"sport": "national quidditch team"
+},
+{
+"qid": "Q27146496",
+"label": "Luxembourg national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130369121",
+"label": "Luxembourg women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q25344746",
+"label": "Luxemburg national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q99646719",
+"label": "Luxembourg national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1529911",
+"label": "Luxembourg national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2397294",
+"label": "Luxembourg men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q48835878",
+"label": "Luxembourg national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q1973332",
+"label": "Luxembourg Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6706322",
+"label": "Luxembourg national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6706315",
+"label": "Luxembourg men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q118875461",
+"label": "Luxembourg women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q6706320",
+"label": "Luxembourg national baseball team",
+"sport": "national baseball team"
+}
+],
 "executive": [
 {
 "qid": "Q21479996",
@@ -507808,7 +510853,88 @@
 "legislative": []
 },
 "Q33": {
-"teams": [],
+"teams": [
+{
+"qid": "Q18680590",
+"label": "Åland women's official football team",
+"sport": "women's national team"
+},
+{
+"qid": "Q54959281",
+"label": "Finland women's national futsal team",
+"sport": "women's national team"
+},
+{
+"qid": "Q138786233",
+"label": "Finland women's national flag football team",
+"sport": "women's national team"
+},
+{
+"qid": "Q27146320",
+"label": "Finland national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q11894815",
+"label": "Finland national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q99646708",
+"label": "Finland national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q2567307",
+"label": "Finland national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q138942697",
+"label": "Finland men's national flag football team",
+"sport": "men's national team"
+},
+{
+"qid": "Q18128205",
+"label": "Finland women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16497748",
+"label": "Finland men's national bandy B team",
+"sport": "national bandy team"
+},
+{
+"qid": "Q2012787",
+"label": "Finland Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q5450486",
+"label": "Finland national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2328525",
+"label": "Finland national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1418038",
+"label": "Finland men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1870891",
+"label": "Finland national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q116185865",
+"label": "Finland national sailing team",
+"sport": "national sailing team"
+}
+],
 "executive": [
 {
 "qid": "Q2366737",
@@ -507825,7 +510951,113 @@
 ]
 },
 "Q334": {
-"teams": [],
+"teams": [
+{
+"qid": "Q17483961",
+"label": "Singapore national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q7523231",
+"label": "Singapore national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q28419180",
+"label": "Singapore national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q130250792",
+"label": "Singapore women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130220379",
+"label": "Singapore men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q30591696",
+"label": "Singapore national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q99646686",
+"label": "Singapore national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1122765",
+"label": "Singapore national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q7523232",
+"label": "Singapore national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q3873928",
+"label": "Singapore men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q7523225",
+"label": "Singapore men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q3967392",
+"label": "Singapore Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q7523229",
+"label": "Singapore national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q7523228",
+"label": "Singapore national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1262530",
+"label": "Singapore men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1847345",
+"label": "Singapore national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q15899034",
+"label": "Singapore women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q693857",
+"label": "Singapore men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q511264",
+"label": "Singapore men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q19615536",
+"label": "Singapore women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q60863298",
+"label": "Singapore women's national water polo team",
+"sport": "national water polo team"
+}
+],
 "executive": [
 {
 "qid": "Q5589317",
@@ -507852,7 +511084,88 @@
 "legislative": []
 },
 "Q34": {
-"teams": [],
+"teams": [
+{
+"qid": "Q2254900",
+"label": "Sweden national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q15944683",
+"label": "Sweden U19 men's national floorball team",
+"sport": "national floorball team"
+},
+{
+"qid": "Q15944684",
+"label": "Sweden U19 women's national floorball team",
+"sport": "national floorball team"
+},
+{
+"qid": "Q141133418",
+"label": "Sweden women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q99646731",
+"label": "Sweden national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q2735810",
+"label": "Sweden national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q7654524",
+"label": "Sweden National Rugby League Team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7654523",
+"label": "Sweden national rugby union team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q10685980",
+"label": "Sweden national junior handball team",
+"sport": "men's national team"
+},
+{
+"qid": "Q1571178",
+"label": "Sweden Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q16497750",
+"label": "Sweden men's national bandy B team",
+"sport": "national bandy team"
+},
+{
+"qid": "Q111957587",
+"label": "Sweden men's junior national bandy team",
+"sport": "national bandy team"
+},
+{
+"qid": "Q111957685",
+"label": "Sweden U23 men's national bandy team",
+"sport": "national bandy team"
+},
+{
+"qid": "Q111957696",
+"label": "Russia U23 men's national bandy team",
+"sport": "national bandy team"
+},
+{
+"qid": "Q2777975",
+"label": "Sweden men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q10685865",
+"label": "Sweden men's national ice hockey B team",
+"sport": "national ice hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q930729",
@@ -541727,6 +545040,106 @@
 "qid": "Q135380114",
 "label": "Ida Tryggedsson",
 "sport": "basketball"
+},
+{
+"qid": "Q281896",
+"label": "Denmark national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q367722",
+"label": "Denmark national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1270077",
+"label": "Denmark national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q513163",
+"label": "Denmark Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q607161",
+"label": "Faroe Islands men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q620771",
+"label": "Faroe Islands women's national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q2349936",
+"label": "Denmark national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3498322",
+"label": "Denmark men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q5257990",
+"label": "Denmark men's national pitch and putt team",
+"sport": "Pitch and putt national team"
+},
+{
+"qid": "Q5257996",
+"label": "Denmark national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q5257998",
+"label": "Denmark national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q5257989",
+"label": "Denmark men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q5257993",
+"label": "Denmark national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q16919778",
+"label": "Denmark women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733842",
+"label": "Denmark men's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q25221181",
+"label": "Denmark national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28225803",
+"label": "Denmark national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q27146317",
+"label": "Faroe Islands national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30752418",
+"label": "Greenland national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q130359979",
+"label": "Denmark women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -579633,6 +583046,71 @@
 "qid": "Q135339936",
 "label": "Weronika Gbiorczyk",
 "sport": "basketball"
+},
+{
+"qid": "Q134664",
+"label": "Poland national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1568997",
+"label": "Polnische Billie-Jean-King-Cup-Mannschaft",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2003634",
+"label": "Poland national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2096784",
+"label": "Poland national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3487346",
+"label": "Poland men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q7208942",
+"label": "Poland national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q9307092",
+"label": "Poland national ski jumping team",
+"sport": "national ski jumping team"
+},
+{
+"qid": "Q9789060",
+"label": "Poland men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q16595931",
+"label": "Poland women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q27146508",
+"label": "Poland national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q24972064",
+"label": "Poland men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q24972096",
+"label": "Poland women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q56311342",
+"label": "Poland national rugby league team",
+"sport": "national rugby league team"
 }
 ],
 "executive": [
@@ -591784,6 +595262,91 @@
 "qid": "Q16596519",
 "label": "Rita Sadzevičienė",
 "sport": "athletics"
+},
+{
+"qid": "Q1646817",
+"label": "Lithuania women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q1964830",
+"label": "Lithuania national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3967377",
+"label": "Lithuania Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2644645",
+"label": "Lithuania national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q9286274",
+"label": "Lithuania men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q6126921",
+"label": "Lithuania national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q6648330",
+"label": "Lithuania national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q6648329",
+"label": "Lithuania national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q12770444",
+"label": "Lithuania men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q17071641",
+"label": "Lithuania national basketball team at Eurobasket 2013",
+"sport": "national basketball team"
+},
+{
+"qid": "Q17300781",
+"label": "Lithuania women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q17300683",
+"label": "Lithuania men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q27146494",
+"label": "Lithuania national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q48837921",
+"label": "Medal winners in Lithuania men's national basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q77701598",
+"label": "Lithuania women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q113144129",
+"label": "Lithuania women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q121010488",
+"label": "Lithuania national rowing team",
+"sport": "national rowing team"
 }
 ],
 "executive": [
@@ -642762,6 +646325,106 @@
 "qid": "Q137626237",
 "label": "Klaus Fruet",
 "sport": "Para cycling"
+},
+{
+"qid": "Q71880",
+"label": "Italy Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q113135",
+"label": "Italy national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q116576",
+"label": "Italy national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q844843",
+"label": "Italy national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q1441436",
+"label": "Italy women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q2019349",
+"label": "Italy national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3747741",
+"label": "Inter Milan and the Italian national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q3811691",
+"label": "Juventus F.C. and the Italian national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q3820621",
+"label": "Italy men's national roller hockey team",
+"sport": "men's national team"
+},
+{
+"qid": "Q3873946",
+"label": "Italy national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q3873623",
+"label": "Italy national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6093809",
+"label": "Italy men's national pitch and putt team",
+"sport": "Pitch and putt national team"
+},
+{
+"qid": "Q6093804",
+"label": "Italy men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q13847965",
+"label": "A.C. Milan and the Italian national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q16581663",
+"label": "Italy women's national roller hockey team",
+"sport": "women's national team"
+},
+{
+"qid": "Q27146486",
+"label": "Italy national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q28229064",
+"label": "Italy national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28229067",
+"label": "Italy women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28670249",
+"label": "Italy women's national futsal team",
+"sport": "women's national team"
+},
+{
+"qid": "Q85770277",
+"label": "Italy national rowing team",
+"sport": "national rowing team"
 }
 ],
 "executive": [
@@ -691956,7 +695619,88 @@
 "legislative": []
 },
 "Q419": {
-"teams": [],
+"teams": [
+{
+"qid": "Q2489341",
+"label": "Peru men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q1995039",
+"label": "Peru Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2072673",
+"label": "Peru national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q2345914",
+"label": "Peru national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q377640",
+"label": "Peru men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q3873605",
+"label": "Peru national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q6124079",
+"label": "Peru national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7171007",
+"label": "Peru national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q16629967",
+"label": "Peru national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q16629983",
+"label": "Peru women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q16629972",
+"label": "Peru men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q21130170",
+"label": "Peru national quidditch team",
+"sport": "national quidditch team"
+},
+{
+"qid": "Q23808312",
+"label": "Peru national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q45310872",
+"label": "Peru women's national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q51881743",
+"label": "Peru women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q99646650",
+"label": "Peru national cycling team",
+"sport": "national cycling team"
+}
+],
 "executive": [
 {
 "qid": "Q3649429",
@@ -691978,7 +695722,48 @@
 "legislative": []
 },
 "Q423": {
-"teams": [],
+"teams": [
+{
+"qid": "Q15742001",
+"label": "North Korea national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q499320",
+"label": "North Korea national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q17008564",
+"label": "North Korea women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q7055832",
+"label": "North Korea men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q847217",
+"label": "North Korea men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q973589",
+"label": "North Korea women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q99646684",
+"label": "North Korea national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q47491897",
+"label": "Korea women's national ice hockey team",
+"sport": "national ice hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q4375957",
@@ -691995,7 +695780,58 @@
 ]
 },
 "Q424": {
-"teams": [],
+"teams": [
+{
+"qid": "Q2779568",
+"label": "Cambodia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3590612",
+"label": "Cambodia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q5025127",
+"label": "Cambodia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q5025129",
+"label": "Cambodia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q27146763",
+"label": "Cambodia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q112242047",
+"label": "Cambodia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q141361882",
+"label": "Cambodia women's national 3x3 team",
+"sport": "women's national team"
+},
+{
+"qid": "Q137884617",
+"label": "Cambodia national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q118896779",
+"label": "Cambodia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q99646666",
+"label": "Cambodia national cycling team",
+"sport": "national cycling team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -692016,7 +695852,118 @@
 "legislative": []
 },
 "Q43": {
-"teams": [],
+"teams": [
+{
+"qid": "Q135220",
+"label": "Turkey national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q665415",
+"label": "Turkey men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1581142",
+"label": "Turkey women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1634826",
+"label": "Turkey national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3513528",
+"label": "Turkey women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3590480",
+"label": "Türkiye men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q2078884",
+"label": "Turkey Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2553600",
+"label": "Turkey national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q4819142",
+"label": "Turkey national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7855162",
+"label": "Turkey men's national wheelchair basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q7855174",
+"label": "Turkey women's national beach handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q7855158",
+"label": "Turkey men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q19630490",
+"label": "Turkey men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q30589813",
+"label": "Turkey women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q23013928",
+"label": "Turkey women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q27146525",
+"label": "Turkey national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q39087031",
+"label": "2017 Turkey men's EuroBasket team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q56489757",
+"label": "Turkey national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q66060612",
+"label": "Turkish male junior national team in beach handball",
+"sport": "national handball team"
+},
+{
+"qid": "Q66060614",
+"label": "Turkish female junior national team in beach handball",
+"sport": "national handball team"
+},
+{
+"qid": "Q99646732",
+"label": "Turkey national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q104843149",
+"label": "Turkey women's national cricket team",
+"sport": "national cricket team"
+}
+],
 "executive": [
 {
 "qid": "Q15462156",
@@ -692080,7 +696027,88 @@
 ]
 },
 "Q45": {
-"teams": [],
+"teams": [
+{
+"qid": "Q250778",
+"label": "Portugal national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q116557",
+"label": "Portugal national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1973060",
+"label": "Portugal Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3080587",
+"label": "Portugal national roller hockey team",
+"sport": "men's national team"
+},
+{
+"qid": "Q1441695",
+"label": "Portugal men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q5296393",
+"label": "Portugal national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3590759",
+"label": "Portugal national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7232575",
+"label": "Portugal national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7232567",
+"label": "Portugal national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q10369607",
+"label": "Portugal women's national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q27146510",
+"label": "Portugal national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q25460839",
+"label": "Portugal women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q87069529",
+"label": "Portugal national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q99647417",
+"label": "Portugal men's national padel team",
+"sport": "national padel team"
+},
+{
+"qid": "Q114027033",
+"label": "Portugal women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130369165",
+"label": "Portugal women's national 3x3 team",
+"sport": "national basketball team"
+}
+],
 "executive": [
 {
 "qid": "Q740205",
@@ -723359,6 +727387,111 @@
 "qid": "Q138634436",
 "label": "Axel Verbij",
 "sport": "baseball"
+},
+{
+"qid": "Q116471",
+"label": "Netherlands national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1318731",
+"label": "Netherlands national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1631126",
+"label": "Netherlands men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q1849426",
+"label": "Netherlands Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1905167",
+"label": "Netherlands men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q1988223",
+"label": "Netherlands national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1988180",
+"label": "Netherlands national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1896614",
+"label": "Netherlands women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2859356",
+"label": "Netherlands women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q2769002",
+"label": "Netherlands Antilles men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3590503",
+"label": "Netherlands Antilles men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q6999471",
+"label": "Netherlands men's national pitch and putt team",
+"sport": "Pitch and putt national team"
+},
+{
+"qid": "Q6999538",
+"label": "Netherlands national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q6999460",
+"label": "Netherlands men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q6999533",
+"label": "Netherlands national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q17054253",
+"label": "Netherlands National Rugby League Team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q15260000",
+"label": "Netherlands women's national wheelchair basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q68853542",
+"label": "Netherlands women's national beach handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q99620610",
+"label": "Netherlands military national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q113468514",
+"label": "Netherlands women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q121010609",
+"label": "Netherlands national rowing team",
+"sport": "national rowing team"
 }
 ],
 "executive": [
@@ -723713,6 +727846,16 @@
 "qid": "Q25429102",
 "label": "AS Académica",
 "sport": "association football"
+},
+{
+"qid": "Q3873615",
+"label": "Timor-Leste national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q27146765",
+"label": "East Timor national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [
@@ -729435,7 +733578,163 @@
 "legislative": []
 },
 "Q664": {
-"teams": [],
+"teams": [
+{
+"qid": "Q1815946",
+"label": "New Zealand national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1161766",
+"label": "New Zealand women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1981530",
+"label": "New Zealand national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q7016216",
+"label": "New Zealand men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2349938",
+"label": "New Zealand national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q14320519",
+"label": "New Zealand women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q13398512",
+"label": "New Zealand national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q33215018",
+"label": "Selección de fútbol sub-23 de las Islas Cook",
+"sport": "national association football team"
+},
+{
+"qid": "Q3590291",
+"label": "New Zealand national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q65067283",
+"label": "New Zealand women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q110320215",
+"label": "New Zealand men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q721187",
+"label": "New Zealand national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q86921303",
+"label": "New Zealand national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q55801",
+"label": "New Zealand national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q6313315",
+"label": "Junior Kiwis",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7015622",
+"label": "New Zealand Residents rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7813538",
+"label": "Tokelau national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3590290",
+"label": "New Zealand national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q4823402",
+"label": "Australasia rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q17055384",
+"label": "New Zealand national schoolboy rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q121010484",
+"label": "New Zealand national rowing team",
+"sport": "national rowing team"
+},
+{
+"qid": "Q3590302",
+"label": "All Blacks Sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7813540",
+"label": "Tokelau national rugby union team  (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q15733981",
+"label": "New Zealand women's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q4921873",
+"label": "New Zealand men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733876",
+"label": "New Zealand men's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q46947850",
+"label": "New Zealand women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q2045685",
+"label": "New Zealand Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1143797",
+"label": "New Zealand national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7015190",
+"label": "New Zealand A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q29641300",
+"label": "New Zealand national blind cricket team",
+"sport": "national cricket team"
+}
+],
 "executive": [
 {
 "qid": "Q3526359",
@@ -729452,7 +733751,143 @@
 ]
 },
 "Q668": {
-"teams": [],
+"teams": [
+{
+"qid": "Q1412524",
+"label": "India men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1265173",
+"label": "India national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q25349896",
+"label": "India women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q48732912",
+"label": "India men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q3589797",
+"label": "India women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2456282",
+"label": "India national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q131319771",
+"label": "India men's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q19605542",
+"label": "India men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q23013660",
+"label": "India women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q19576916",
+"label": "Bihar women's football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q6019688",
+"label": "India national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q17003757",
+"label": "India women's national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q6019679",
+"label": "India national kabaddi Team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q6019684",
+"label": "India national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q16595832",
+"label": "India national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q99646668",
+"label": "India national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1661537",
+"label": "India national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q65056839",
+"label": "India national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q6019692",
+"label": "India national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q131319784",
+"label": "India men's national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q1661561",
+"label": "India men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q55614408",
+"label": "India men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q55614410",
+"label": "India women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q2017984",
+"label": "India Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1143793",
+"label": "India national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6019252",
+"label": "India A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6019642",
+"label": "India blind cricket team",
+"sport": "national cricket team"
+}
+],
 "executive": [
 {
 "qid": "Q125132191",
@@ -729519,7 +733954,53 @@
 "legislative": []
 },
 "Q678": {
-"teams": [],
+"teams": [
+{
+"qid": "Q111737405",
+"label": "Tonga national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q15742903",
+"label": "Tonga national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q23013920",
+"label": "Tonga national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q99646746",
+"label": "Tonga national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1134659",
+"label": "Tonga national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3590551",
+"label": "Tonga national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3590555",
+"label": "Tonga men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q11834360",
+"label": "Tonga national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7820990",
+"label": "Tongan International Cricket",
+"sport": "national cricket team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729530,7 +734011,68 @@
 ]
 },
 "Q683": {
-"teams": [],
+"teams": [
+{
+"qid": "Q7409929",
+"label": "Samoa national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q27147140",
+"label": "Samoa national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q33214831",
+"label": "Selección de fútbol sub-23 de Samoa",
+"sport": "national association football team"
+},
+{
+"qid": "Q7409930",
+"label": "Samoa national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q130221076",
+"label": "Samoa men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q99646821",
+"label": "Samoa national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1138539",
+"label": "Samoa national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3590539",
+"label": "Samoa national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3590545",
+"label": "Samoa national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q3590544",
+"label": "Samoa men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q15734019",
+"label": "Samoa men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q7409928",
+"label": "Samoa national cricket team",
+"sport": "national cricket team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729546,7 +734088,53 @@
 "legislative": []
 },
 "Q685": {
-"teams": [],
+"teams": [
+{
+"qid": "Q75240",
+"label": "Solomon Islands national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q131412018",
+"label": "Solomon Islands women's national futsal team",
+"sport": "women's national team"
+},
+{
+"qid": "Q66714994",
+"label": "Solomon Islands national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3873752",
+"label": "Solomon Islands men's national basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q48839412",
+"label": "Solomon Islands national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q99646745",
+"label": "Solomon Islands national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q637445",
+"label": "Solomon Islands national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q25220240",
+"label": "Solomon Islands national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7558671",
+"label": "Solomon Islands national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729567,7 +734155,68 @@
 "legislative": []
 },
 "Q691": {
-"teams": [],
+"teams": [
+{
+"qid": "Q7133183",
+"label": "Papua New Guinea national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q66714987",
+"label": "Papua New Guinea national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q2535503",
+"label": "Papua New Guinea national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q7133185",
+"label": "Papua New Guinea national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q65053027",
+"label": "Papua New Guinea women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q99646635",
+"label": "Papua New Guinea national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q637465",
+"label": "Papua New Guinea national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3590308",
+"label": "Papua New Guinea national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q28224258",
+"label": "Papua New Guinea women's national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7133186",
+"label": "Papua New Guinea national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7133182",
+"label": "Papua New Guinea men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q3590306",
+"label": "Papua New Guinea national cricket team",
+"sport": "national cricket team"
+}
+],
 "executive": [
 {
 "qid": "Q5015543",
@@ -729599,7 +734248,58 @@
 "legislative": []
 },
 "Q711": {
-"teams": [],
+"teams": [
+{
+"qid": "Q666949",
+"label": "Mongolia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q847003",
+"label": "Mongolia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q1383045",
+"label": "Mongolia men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1860845",
+"label": "Mongolia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q27146783",
+"label": "Mongolia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q48848258",
+"label": "Mongolia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q48848432",
+"label": "Mongolia women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q6899626",
+"label": "Mongolia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q99646676",
+"label": "Mongolia national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q110813210",
+"label": "Mongolia men's national junior ice hockey team",
+"sport": "national ice hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q16639003",
@@ -729616,7 +734316,68 @@
 ]
 },
 "Q712": {
-"teams": [],
+"teams": [
+{
+"qid": "Q1134669",
+"label": "Fiji national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1411396",
+"label": "Fiji women's national football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q1815924",
+"label": "Fiji national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3590518",
+"label": "Fiji national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3590524",
+"label": "Fiji national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q3590522",
+"label": "Fiji men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q5448120",
+"label": "Fiji Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q5448180",
+"label": "Fiji national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q5448178",
+"label": "Fiji national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q25052653",
+"label": "Fiji men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q27147134",
+"label": "Fiji national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646640",
+"label": "Fiji national cycling team",
+"sport": "national cycling team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729632,12 +734393,124 @@
 "legislative": []
 },
 "Q713750": {
-"teams": [],
+"teams": [
+{
+"qid": "Q10939427",
+"label": "West Germany men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q99658425",
+"label": "West Germany national cycling team",
+"sport": "national cycling team"
+}
+],
 "executive": [],
 "legislative": []
 },
 "Q717": {
-"teams": [],
+"teams": [
+{
+"qid": "Q1185631",
+"label": "Venezuela national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1185806",
+"label": "Venezuela women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3873690",
+"label": "Venezuela women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q1783262",
+"label": "Venezuela national national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q587487",
+"label": "Venezuela national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2032254",
+"label": "Venezuela men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q2078927",
+"label": "Venezuela Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q7919808",
+"label": "Venezuela national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q7919804",
+"label": "Venezuela men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q2754381",
+"label": "Venezuela men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q16629970",
+"label": "Venezuela men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q17014980",
+"label": "Venezuela women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733941",
+"label": "Venezuela women's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q19578187",
+"label": "Venezuela women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q27147070",
+"label": "Venezuela national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q28446739",
+"label": "Venezuela national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q39053740",
+"label": "Venezuela men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q39053770",
+"label": "Venezuela women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q56779019",
+"label": "Venezuela men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q86989079",
+"label": "Venezuela national cycling team",
+"sport": "national cycling team"
+}
+],
 "executive": [
 {
 "qid": "Q14252930",
@@ -729674,7 +734547,28 @@
 "legislative": []
 },
 "Q730": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27147065",
+"label": "Suriname national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646654",
+"label": "Suriname national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q3590777",
+"label": "Suriname men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q7646326",
+"label": "Suriname national cricket team",
+"sport": "national cricket team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729701,7 +734595,58 @@
 ]
 },
 "Q733": {
-"teams": [],
+"teams": [
+{
+"qid": "Q7134681",
+"label": "Paraguay national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q576563",
+"label": "Paraguay Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q99646631",
+"label": "Paraguay national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q99646948",
+"label": "Paraguay men's national padel team",
+"sport": "national padel team"
+},
+{
+"qid": "Q956204",
+"label": "Paraguay men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q2572572",
+"label": "Paraguay national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q21661986",
+"label": "Paraguay women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q27147059",
+"label": "Paraguay national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3873609",
+"label": "Paraguay national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q62755253",
+"label": "Paraguayan national junior Beach handball team",
+"sport": "national handball team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729712,7 +734657,58 @@
 ]
 },
 "Q734": {
-"teams": [],
+"teams": [
+{
+"qid": "Q912881",
+"label": "West Indies cricket team",
+"sport": "multinational sports team"
+},
+{
+"qid": "Q3590676",
+"label": "Guyana national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3873898",
+"label": "Guyana men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q5622769",
+"label": "Guyana national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q5622770",
+"label": "Guyana national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q16934617",
+"label": "Guyana women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q99646855",
+"label": "Guyana national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q27147047",
+"label": "Guyana national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130384837",
+"label": "Guyana men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130425347",
+"label": "Guyana women's national 3x3 team",
+"sport": "national basketball team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729723,7 +734719,63 @@
 ]
 },
 "Q736": {
-"teams": [],
+"teams": [
+{
+"qid": "Q1649717",
+"label": "Ecuador men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q5334368",
+"label": "Ecuador national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2120315",
+"label": "Ecuador Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2154220",
+"label": "Ecuador national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q21006968",
+"label": "Ecuador men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q3873607",
+"label": "Ecuador national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q25054242",
+"label": "Ecuador national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q27147038",
+"label": "Ecuador national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q86989074",
+"label": "Équateur national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q130425281",
+"label": "Ecuador men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130425863",
+"label": "Ecuador women's national 3x3 team",
+"sport": "national basketball team"
+}
+],
 "executive": [
 {
 "qid": "Q55645704",
@@ -729740,7 +734792,98 @@
 ]
 },
 "Q739": {
-"teams": [],
+"teams": [
+{
+"qid": "Q128834",
+"label": "Colombia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1727002",
+"label": "Colombia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2408481",
+"label": "Colombia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q1091425",
+"label": "Colombia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2571617",
+"label": "Colombia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3687359",
+"label": "Colombia men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q5147912",
+"label": "Colombia national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q5147911",
+"label": "Colombia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q5147913",
+"label": "Colombia national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q10369576",
+"label": "Colombia women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q6124220",
+"label": "Colombia national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q16950002",
+"label": "Colombia women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q25054215",
+"label": "Colombia national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q27147028",
+"label": "Colombia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q86989071",
+"label": "Colombie national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q125506894",
+"label": "Colombia women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q130225079",
+"label": "Colombia men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q130425640",
+"label": "Columbia women's national 3x3 team",
+"sport": "national basketball team"
+}
+],
 "executive": [
 {
 "qid": "Q5589197",
@@ -729762,7 +734905,43 @@
 "legislative": []
 },
 "Q750": {
-"teams": [],
+"teams": [
+{
+"qid": "Q135093",
+"label": "Bolivia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3967358",
+"label": "Bolivia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2157588",
+"label": "Bolivia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2398032",
+"label": "Bolivia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q54449516",
+"label": "Bolivia national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q66714966",
+"label": "Bolivia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646846",
+"label": "Bolivia national cycling team",
+"sport": "national cycling team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729773,7 +734952,98 @@
 ]
 },
 "Q754": {
-"teams": [],
+"teams": [
+{
+"qid": "Q123478215",
+"label": "Trinidad and Tobago men's national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q27147067",
+"label": "Trinidad and Tobago national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646656",
+"label": "Trinidad and Tobago national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1620798",
+"label": "Trinidad and Tobago national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q7842475",
+"label": "Trinidad and Tobago national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q20731379",
+"label": "Trinidad and Tobago national beach soccer team",
+"sport": "men's national team"
+},
+{
+"qid": "Q3590428",
+"label": "Trinidad and Tobago men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q130391535",
+"label": "Trinidad and Tobago men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130425841",
+"label": "Trinidad and Tobago women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3967395",
+"label": "Trinidad and Tobago Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q912881",
+"label": "West Indies cricket team",
+"sport": "multinational sports team"
+},
+{
+"qid": "Q2738932",
+"label": "Trinidad and Tobago national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q3873613",
+"label": "Trinidad and Tobago national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2202177",
+"label": "Trinidad and Tobago national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2133777",
+"label": "Trinidad and Tobago men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3873700",
+"label": "Trinidad and Tobago women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q23013926",
+"label": "Trinidad and Tobago men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q7842474",
+"label": "Trinidad and Tobago national netball team",
+"sport": "Q131785111"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729806,7 +735076,88 @@
 "legislative": []
 },
 "Q766": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27147052",
+"label": "Jamaica national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646859",
+"label": "Jamaica national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q3590249",
+"label": "Jamaica national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3590246",
+"label": "Jamaica national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q3590250",
+"label": "Jamaica men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q130425293",
+"label": "Jamaica men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130425924",
+"label": "Jamaica women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2120279",
+"label": "Jamaica Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3590248",
+"label": "Jamaica national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q912881",
+"label": "West Indies cricket team",
+"sport": "multinational sports team"
+},
+{
+"qid": "Q6127394",
+"label": "Jamaica men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q20660299",
+"label": "Jamaica men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2169600",
+"label": "Jamaica national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q2306956",
+"label": "Jamaica men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3873692",
+"label": "Jamaica women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q6127398",
+"label": "Jamaica national netball team",
+"sport": "Q131785111"
+}
+],
 "executive": [
 {
 "qid": "Q5015520",
@@ -729823,7 +735174,83 @@
 ]
 },
 "Q77": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27147068",
+"label": "Uruguay national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646657",
+"label": "Uruguay national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q276760",
+"label": "Uruguay national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q25220899",
+"label": "Uruguay national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7901445",
+"label": "Uruguay national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q39059451",
+"label": "Uruguay men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q39059469",
+"label": "Uruguay women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2299255",
+"label": "Uruguay men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q2120041",
+"label": "Uruguay Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1753791",
+"label": "Uruguay national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q60770",
+"label": "Uruguay national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q99646625",
+"label": "Uruguay men's national padel team",
+"sport": "national padel team"
+},
+{
+"qid": "Q3873691",
+"label": "Uruguay women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q4368215",
+"label": "Uruguay men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q7901443",
+"label": "Uruguay national roller hockey team",
+"sport": "national roller hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q104809052",
@@ -729845,7 +735272,63 @@
 "legislative": []
 },
 "Q774": {
-"teams": [],
+"teams": [
+{
+"qid": "Q132173546",
+"label": "Guatemala women's national futsal team",
+"sport": "women's national team"
+},
+{
+"qid": "Q15966185",
+"label": "Guatemala national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q27147044",
+"label": "Guatemala national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646854",
+"label": "Guatemala national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q786742",
+"label": "Guatemala national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2401651",
+"label": "Guatemala men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q130425261",
+"label": "Guatemala men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130425357",
+"label": "Guatemala women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3967374",
+"label": "Guatemala Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q60767",
+"label": "Guatemala national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2960860",
+"label": "Guatemala national baseball team",
+"sport": "national baseball team"
+}
+],
 "executive": [
 {
 "qid": "Q2879802",
@@ -729862,7 +735345,48 @@
 ]
 },
 "Q778": {
-"teams": [],
+"teams": [
+{
+"qid": "Q99646841",
+"label": "Bahamas national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1621341",
+"label": "Bahamas national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3590507",
+"label": "Bahamas men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q16154564",
+"label": "Bahamas men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q2120078",
+"label": "Bahamas Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q4842374",
+"label": "Bahamas national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2190095",
+"label": "Bahamas national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q131785127",
+"label": "Bahamas national netball team",
+"sport": "Q131785111"
+}
+],
 "executive": [
 {
 "qid": "Q5015577",
@@ -729906,7 +735430,68 @@
 "legislative": []
 },
 "Q786": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27147034",
+"label": "Dominican Republic national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646850",
+"label": "Dominican Republic national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q3590499",
+"label": "Dominican Republic national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1238027",
+"label": "Dominican Republic men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q130382373",
+"label": "Dominican Republic men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130425454",
+"label": "Dominican Republic women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q5290797",
+"label": "Dominican Republic men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q5290814",
+"label": "Dominican Republic women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q2120034",
+"label": "Dominican Republic Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q17629773",
+"label": "Dominican Republic national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1091011",
+"label": "Dominican Republic national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3873695",
+"label": "Dominican Republic women's national field hockey team",
+"sport": "national field hockey team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -729922,7 +735507,73 @@
 "legislative": []
 },
 "Q79": {
-"teams": [],
+"teams": [
+{
+"qid": "Q86989090",
+"label": "Égypte national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q27147087",
+"label": "Egypt national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q22948913",
+"label": "Egypt men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q5348362",
+"label": "Egypt national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q28220701",
+"label": "Egypt men's national sitting volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q113624751",
+"label": "Egypt women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2120302",
+"label": "Egypt Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q5348357",
+"label": "Egypt national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q65253",
+"label": "Egypt national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q39050319",
+"label": "Egypt national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q5348359",
+"label": "Egypt national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q48838474",
+"label": "Egypt women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3873676",
+"label": "Egypt men's national field hockey team",
+"sport": "national field hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q4206677",
@@ -729939,7 +735590,38 @@
 ]
 },
 "Q790": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27147049",
+"label": "Haiti national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646856",
+"label": "Haiti national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q130382788",
+"label": "Haiti men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q5639691",
+"label": "Haiti Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q21070793",
+"label": "Haiti national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q30067905",
+"label": "Haiti men's national ice hockey team",
+"sport": "national ice hockey team"
+}
+],
 "executive": [
 {
 "qid": "Q16146706",
@@ -729956,7 +735638,53 @@
 ]
 },
 "Q792": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27147039",
+"label": "El Salvador national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646851",
+"label": "El Salvador national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1634037",
+"label": "El Salvador national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q21957444",
+"label": "El Salvador national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q945506",
+"label": "El Salvador national beach soccer team",
+"sport": "men's national team"
+},
+{
+"qid": "Q130382232",
+"label": "El Salvador men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q5352078",
+"label": "El Salvador Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q12775781",
+"label": "El Salvador national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2535095",
+"label": "El Salvador national baseball team",
+"sport": "national baseball team"
+}
+],
 "executive": [
 {
 "qid": "Q5589203",
@@ -729973,7 +735701,108 @@
 ]
 },
 "Q794": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27146766",
+"label": "Iran national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3589803",
+"label": "Iran men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q86989063",
+"label": "Iran national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q3589807",
+"label": "Iran national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q20109939",
+"label": "Iran national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q16995083",
+"label": "Iran national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q48988261",
+"label": "Iran women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q51463667",
+"label": "Iran Football National team under '14",
+"sport": "national association football team"
+},
+{
+"qid": "Q932162",
+"label": "Iran men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q110305703",
+"label": "Iran men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2120069",
+"label": "Iran Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q13115922",
+"label": "Iran national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1672397",
+"label": "Iran national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1098240",
+"label": "Iran women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q26714930",
+"label": "Iran men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q117425096",
+"label": "Iran women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1998616",
+"label": "Iran men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q4303058",
+"label": "Iran national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q17991833",
+"label": "Iran women's national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q6067098",
+"label": "Iran national kabaddi team",
+"sport": "Q122395354"
+}
+],
 "executive": [
 {
 "qid": "Q16052369",
@@ -729990,7 +735819,58 @@
 ]
 },
 "Q796": {
-"teams": [],
+"teams": [
+{
+"qid": "Q141344977",
+"label": "Iraq women's national 3x3 team",
+"sport": "women's national team"
+},
+{
+"qid": "Q4993101",
+"label": "Iraq men's national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q27146768",
+"label": "Iraq national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q99646669",
+"label": "Iraq national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q846997",
+"label": "Iraq men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q130251410",
+"label": "Iraq men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q10536619",
+"label": "Iraq Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2022206",
+"label": "Iraq national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q112692527",
+"label": "Iraq women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2104099",
+"label": "Iraq national baseball team",
+"sport": "national baseball team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -730012,7 +735892,48 @@
 ]
 },
 "Q800": {
-"teams": [],
+"teams": [
+{
+"qid": "Q27147029",
+"label": "Costa Rica national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q86991483",
+"label": "Costa Rica national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q1621574",
+"label": "Costa Rica national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3590654",
+"label": "Costa Rica men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q5174882",
+"label": "Costa Rica national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q3967363",
+"label": "Costa Rica Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q60765",
+"label": "Costa Rica national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3212107",
+"label": "Costa Rica national baseball team",
+"sport": "national baseball team"
+}
+],
 "executive": [],
 "legislative": [
 {
@@ -747118,6 +753039,81 @@
 "qid": "Q1534774",
 "label": "IKMF",
 "sport": "Krav Maga"
+},
+{
+"qid": "Q2419471",
+"label": "Israel national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q27146485",
+"label": "Israel national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q13398248",
+"label": "Israel national roller hockey team",
+"sport": "national roller hockey team"
+},
+{
+"qid": "Q55614679",
+"label": "Israel women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q24912285",
+"label": "Israel men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q19577176",
+"label": "Israel national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q24912321",
+"label": "Israel women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2335211",
+"label": "Israel national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q15734065",
+"label": "Israel men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q18210986",
+"label": "Israel women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q1770989",
+"label": "Israel Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6087425",
+"label": "Israel national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q2644661",
+"label": "Israel national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1439831",
+"label": "Israel men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q6087409",
+"label": "Israel men's national junior ice hockey team",
+"sport": "national ice hockey team"
 }
 ],
 "executive": [
@@ -750236,6 +756232,41 @@
 "qid": "Q135382488",
 "label": "Heydikel Del Carmen Carvajal Rodriguez",
 "sport": "basketball"
+},
+{
+"qid": "Q527292",
+"label": "Panama national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q27147056",
+"label": "Panama national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q65560605",
+"label": "Selección de fútbol sub-22 de Panamá",
+"sport": "national association football team"
+},
+{
+"qid": "Q3873943",
+"label": "Panama national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3967387",
+"label": "Panama Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q149538",
+"label": "Panama national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q7129961",
+"label": "Panama national cricket team",
+"sport": "national cricket team"
 }
 ],
 "executive": [],
@@ -750648,6 +756679,16 @@
 "qid": "Q135352752",
 "label": "Sultan Shaker",
 "sport": "basketball"
+},
+{
+"qid": "Q3873918",
+"label": "Yemen men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q8052104",
+"label": "Yemen national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [
@@ -752771,6 +758812,41 @@
 "qid": "Q117191951",
 "label": "Marah Omar",
 "sport": "badminton"
+},
+{
+"qid": "Q27146770",
+"label": "Jordan national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130211633",
+"label": "Jordan men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130220961",
+"label": "Jordan women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q1634699",
+"label": "Jordan national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3873894",
+"label": "Jordan men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q6276521",
+"label": "Jordan Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6277194",
+"label": "Jordan national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [],
@@ -754599,6 +760675,21 @@
 "qid": "Q135355830",
 "label": "Grisell Guillen",
 "sport": "basketball"
+},
+{
+"qid": "Q1185780",
+"label": "Nicaragua national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q123415830",
+"label": "Nicaragua men's national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q25409208",
+"label": "Nicaragua national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [
@@ -757083,6 +763174,66 @@
 "qid": "Q123972531",
 "label": "Caramnob Sagaipov",
 "sport": "judo"
+},
+{
+"qid": "Q27146779",
+"label": "Lebanon national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130213976",
+"label": "Lebanon men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130250761",
+"label": "Lebanon women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q4993100",
+"label": "Lebanon national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q3590698",
+"label": "Lebanon national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q3590699",
+"label": "Lebanon national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q847012",
+"label": "Lebanon men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q6511085",
+"label": "Lebanon Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2022217",
+"label": "Lebanon national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q94697115",
+"label": "Lebanon women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q118875385",
+"label": "Lebanon women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q30067930",
+"label": "Lebanon men's national ice hockey team",
+"sport": "national ice hockey team"
 }
 ],
 "executive": [],
@@ -758208,6 +764359,36 @@
 "qid": "Q135360601",
 "label": "Yoosuf Avan Ubaidulla",
 "sport": "basketball"
+},
+{
+"qid": "Q27146782",
+"label": "Maldives national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130251466",
+"label": "Maldives men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130251695",
+"label": "Maldives women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3590523",
+"label": "Maldives men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q6742823",
+"label": "Maldives national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6742825",
+"label": "Maldives national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [],
@@ -760038,6 +766219,11 @@
 "qid": "Q3509778",
 "label": "Zdenko Vukasović",
 "sport": "association football"
+},
+{
+"qid": "Q16250973",
+"label": "Yugoslavia national rugby union U19 team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [],
@@ -771115,6 +777301,101 @@
 "qid": "Q10534667",
 "label": "Sime Darby F.C.",
 "sport": "association football"
+},
+{
+"qid": "Q1107477",
+"label": "Malaysia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q2094648",
+"label": "Malaysia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q6741881",
+"label": "Malaysia League XI",
+"sport": "national association football team"
+},
+{
+"qid": "Q6741920",
+"label": "Malaysia national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q16844414",
+"label": "Malaysia Pahang Sports School",
+"sport": "national association football team"
+},
+{
+"qid": "Q19646120",
+"label": "Penang XI",
+"sport": "national association football team"
+},
+{
+"qid": "Q65090228",
+"label": "Malaysia national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q130220263",
+"label": "Malaysia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130234769",
+"label": "Malaysia women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2352445",
+"label": "Malaysia national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q15575161",
+"label": "Malaysia national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q136539553",
+"label": "Malaysia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q3967380",
+"label": "Malaysia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6741918",
+"label": "Malaysia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1886915",
+"label": "Malaysia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q1700054",
+"label": "Malaysia men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q13657737",
+"label": "Malaysia women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q48732908",
+"label": "Malaysia men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q25221706",
+"label": "Malaysia women's national ice hockey team",
+"sport": "national ice hockey team"
 }
 ],
 "executive": [
@@ -771978,6 +778259,36 @@
 "qid": "Q134961390",
 "label": "May Hsu Lwin",
 "sport": "chess"
+},
+{
+"qid": "Q141362339",
+"label": "Myanmar women's national 3x3 team",
+"sport": "women's national team"
+},
+{
+"qid": "Q2663884",
+"label": "Myanmar national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q27146785",
+"label": "Myanmar national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q17067984",
+"label": "Myanmar men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q6946785",
+"label": "Myanmar national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6946788",
+"label": "Myanmar national futsal team",
+"sport": "national futsal team"
 }
 ],
 "executive": [],
@@ -773450,6 +779761,51 @@
 "qid": "Q25428297",
 "label": "Sunakhari Athletic Club",
 "sport": "association football"
+},
+{
+"qid": "Q18209941",
+"label": "Nepal national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q27146786",
+"label": "Nepal national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q120262176",
+"label": "Nepal men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q28183874",
+"label": "Nepal men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q28183877",
+"label": "Nepal women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q25056731",
+"label": "Nepal national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q112860723",
+"label": "Nepal national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q39086693",
+"label": "Nepal national blind cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q6994470",
+"label": "Nepal national cricket team",
+"sport": "national cricket team"
 }
 ],
 "executive": [
@@ -777509,6 +783865,116 @@
 "qid": "Q4837515",
 "label": "Mohammad Babar Azam",
 "sport": "cricket"
+},
+{
+"qid": "Q603010",
+"label": "Pakistan national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q247593",
+"label": "Pakistan national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3590744",
+"label": "Pakistan men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q5378045",
+"label": "England national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q3967386",
+"label": "Pakistan Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q6158037",
+"label": "Japan national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q7435689",
+"label": "Scotland national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q7125503",
+"label": "Pakistan A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7125794",
+"label": "Pakistan national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q7125792",
+"label": "Pakistan national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7125780",
+"label": "Pakistan blind cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q17016216",
+"label": "Pakistan national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q17068885",
+"label": "Pakistan national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q15734047",
+"label": "Pakistan men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q27146788",
+"label": "Pakistan national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q21662130",
+"label": "Pakistan women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q24891633",
+"label": "Pakistan women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q30644683",
+"label": "Pakistan national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q45729058",
+"label": "South Korea National Kabaddi Team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q39091048",
+"label": "Malaysia national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q101093854",
+"label": "Pakistan women’s national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q141390703",
+"label": "Pakistan women's national 3x3 team",
+"sport": "women's national team"
 }
 ],
 "executive": [
@@ -783645,6 +790111,51 @@
 "qid": "Q140677361",
 "label": "Muhannad Almutawa",
 "sport": "basketball"
+},
+{
+"qid": "Q188334",
+"label": "Saudi Arabia men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1117215",
+"label": "Saudi Arabia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3873885",
+"label": "Saudi Arabia men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q7427099",
+"label": "Saudi Arabia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q28219878",
+"label": "Saudi Arabia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q66714993",
+"label": "Saudi Arabia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q104884432",
+"label": "Saudi Arabia men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q112861116",
+"label": "Saudi Arabia women's national futsal team",
+"sport": "national association football team"
+},
+{
+"qid": "Q141367406",
+"label": "Saudi Arabia women's national 3x3 team",
+"sport": "women's national team"
 }
 ],
 "executive": [
@@ -788043,6 +794554,81 @@
 "qid": "Q7635071",
 "label": "Sugath Thilakaratne",
 "sport": "athletics"
+},
+{
+"qid": "Q511912",
+"label": "Sri Lanka national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q927235",
+"label": "Sri Lanka national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q2286100",
+"label": "Sri Lanka men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3521136",
+"label": "Sri Lanka national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q7586004",
+"label": "Sri Lanka men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q7585886",
+"label": "Sri Lanka A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7586006",
+"label": "Sri Lanka national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q7586007",
+"label": "Sri Lanka national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q3967362",
+"label": "Sri Lanka Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q19615541",
+"label": "Sri Lanka women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q27146793",
+"label": "Sri Lanka national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30592050",
+"label": "Sri Lanka national blind cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q30680615",
+"label": "Sri Lanka national deaf cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q39056350",
+"label": "Sri Lanka men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q39056356",
+"label": "Sri Lanka women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [],
@@ -790175,6 +796761,36 @@
 "qid": "Q135359192",
 "label": "Laila Hasan Agha",
 "sport": "basketball"
+},
+{
+"qid": "Q3873903",
+"label": "Syria men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q3967393",
+"label": "Syria Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q7663185",
+"label": "Syria national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q27146795",
+"label": "Syria national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q30642978",
+"label": "Syria women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130251656",
+"label": "Syria men's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -795963,6 +802579,76 @@
 "qid": "Q2277746",
 "label": "Hong Kong Sheffield United",
 "sport": "association football"
+},
+{
+"qid": "Q374180",
+"label": "Hong Kong men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1317490",
+"label": "Hong Kong women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q2184674",
+"label": "Hong Kong men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3873924",
+"label": "Hong Kong men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q3534064",
+"label": "Hong Kong national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q3590239",
+"label": "Hong Kong women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q5895383",
+"label": "Hong Kong national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q16237680",
+"label": "Hong Kong men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16056520",
+"label": "Hong Kong national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q19615534",
+"label": "Hong Kong women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q23013640",
+"label": "Hong Kong women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q25221339",
+"label": "Hong Kong men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q56275310",
+"label": "Hong Kong women's national beach handball team",
+"sport": "women's national team"
+},
+{
+"qid": "Q56307171",
+"label": "Hong Kong national rugby league team",
+"sport": "national rugby league team"
 }
 ],
 "executive": [
@@ -803086,6 +809772,76 @@
 "qid": "Q5100633",
 "label": "Chinese Taipei Baseball Association",
 "sport": "baseball"
+},
+{
+"qid": "Q710341",
+"label": "Chinese Taipei men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q713532",
+"label": "Chinese Taipei national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q714402",
+"label": "Chinese Taipei national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q5100661",
+"label": "Chinese Taipei national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q5100656",
+"label": "Chinese Taipei men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q5100655",
+"label": "Chinese Taipei men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q966632",
+"label": "Taiwan national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q702900",
+"label": "Chinese Taipei national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2078891",
+"label": "Chinese Taipei Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q3590418",
+"label": "Chinese Taipei women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q15733992",
+"label": "Chinese Taipei women's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16961444",
+"label": "Chinese Taipei women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q28224091",
+"label": "Chinese Taipei women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q24887142",
+"label": "Chinese Taipei women's national ice hockey team",
+"sport": "national ice hockey team"
 }
 ],
 "executive": [
@@ -812535,6 +819291,111 @@
 "qid": "Q107324793",
 "label": "MBK Fight Night",
 "sport": "kickboxing"
+},
+{
+"qid": "Q1395532",
+"label": "Thailand national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q1475539",
+"label": "Thailand national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1819620",
+"label": "Thailand national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q2045872",
+"label": "Thailand Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q2005438",
+"label": "Thailand men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q847211",
+"label": "Thailand men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q25708",
+"label": "Thailand national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q5034430",
+"label": "Thailand men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q7709262",
+"label": "Thailand national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q15899023",
+"label": "Thailand women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q13638750",
+"label": "Thailand women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q16237277",
+"label": "Thailand national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q13117832",
+"label": "Thailand national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q18210746",
+"label": "Thailand national kabaddi team",
+"sport": "Q122395354"
+},
+{
+"qid": "Q19615539",
+"label": "Thailand women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q110305943",
+"label": "Thailand men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q111950621",
+"label": "Thailand men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q115181510",
+"label": "Thailand women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q137884357",
+"label": "Thailand men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q130225140",
+"label": "Thailand men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q130236479",
+"label": "Thailand women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -814713,6 +821574,61 @@
 "qid": "Q4783163",
 "label": "Arab Chess Federation",
 "sport": "chess"
+},
+{
+"qid": "Q195734",
+"label": "United Arab Emirates national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q1317478",
+"label": "United Arab Emirates men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q3590559",
+"label": "United Arab Emirates men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q4992691",
+"label": "United Arab Emirates national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q7887445",
+"label": "United Arab Emirates national rugby league team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q7887447",
+"label": "United Arab Emirates national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q7887442",
+"label": "United Arab Emirates national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q7887439",
+"label": "United Arab Emirates men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q66714996",
+"label": "United Arab Emirates national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q15899010",
+"label": "United Arab Emirates women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q131367293",
+"label": "United Arab Emirates national baseball team",
+"sport": "national baseball team"
 }
 ],
 "executive": [],
@@ -817185,6 +824101,46 @@
 "qid": "Q49088526",
 "label": "Vikings Esports",
 "sport": "esports"
+},
+{
+"qid": "Q7928605",
+"label": "Vietnam women's national Futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q7928599",
+"label": "Vietnam national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3873883",
+"label": "Vietnam men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q27146529",
+"label": "Vietnam national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q16224818",
+"label": "Vietnam Fed Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q30682694",
+"label": "Vietnam national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q110307316",
+"label": "Vietnam men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130251675",
+"label": "Vietnam women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [
@@ -837578,6 +844534,96 @@
 "qid": "Q110115919",
 "label": "Gen.G League of Legends",
 "sport": "League of Legends"
+},
+{
+"qid": "Q491924",
+"label": "South Korea national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q7567710",
+"label": "South Korea national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q16237269",
+"label": "South Korea men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16976017",
+"label": "South Korea women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q28446738",
+"label": "South Korea national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q1833558",
+"label": "South Korea Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q110304510",
+"label": "South Korea men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130251738",
+"label": "South Korea women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q7567696",
+"label": "South Korea national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q130225142",
+"label": "South Korea men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q498085",
+"label": "South Korea national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q7567714",
+"label": "South Korea women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q497344",
+"label": "South Korea women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q7567694",
+"label": "South Korea men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q47491897",
+"label": "Korea women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q494752",
+"label": "South Korea national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3589936",
+"label": "South Korea women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q65241897",
+"label": "South Korea women's national water polo team",
+"sport": "national water polo team"
 }
 ],
 "executive": [
@@ -838401,6 +845447,66 @@
 "qid": "Q787945",
 "label": "Mawjhai Amu F.C.",
 "sport": "association football"
+},
+{
+"qid": "Q141392542",
+"label": "Afghanistan women's national 3x3 team",
+"sport": "women's national team"
+},
+{
+"qid": "Q27146755",
+"label": "Afghanistan national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q4689191",
+"label": "Afghanistan men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q25221393",
+"label": "Afghanistan men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q86477",
+"label": "Afghanistan national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q30590112",
+"label": "Afghanistan A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q4689193",
+"label": "Afghanistan national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q889414",
+"label": "Afghanistan national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q2421025",
+"label": "Afghanistan national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q15781824",
+"label": "Afghanistan national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2423583",
+"label": "Afghanistan men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q1494472",
+"label": "Afghanistan men's national water polo team",
+"sport": "national water polo team"
 }
 ],
 "executive": [
@@ -841631,6 +848737,56 @@
 "qid": "Q135362737",
 "label": "Omar Faruque",
 "sport": "basketball"
+},
+{
+"qid": "Q27146758",
+"label": "Bangladesh national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q3873863",
+"label": "Bangladesh men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q806537",
+"label": "Bangladesh national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q130251084",
+"label": "Bangladesh men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q11834246",
+"label": "Bangladesh national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q134600561",
+"label": "Bangladesh national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q120497959",
+"label": "Bangladesh national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q139073503",
+"label": "Bangladesh national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q16987777",
+"label": "Bangladesh national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q15728965",
+"label": "Bangladesh women's national kabaddi team",
+"sport": "Q122395354"
 }
 ],
 "executive": [
@@ -845639,6 +852795,26 @@
 "qid": "Q135360997",
 "label": "Mahamadou Lassana Sacko",
 "sport": "basketball"
+},
+{
+"qid": "Q6743335",
+"label": "Mali national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q130487082",
+"label": "Mali men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q131783394",
+"label": "Mali women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3590712",
+"label": "Mali national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [],
@@ -847776,6 +854952,36 @@
 "qid": "Q135360463",
 "label": "Happy Mollel",
 "sport": "basketball"
+},
+{
+"qid": "Q27147121",
+"label": "Tanzania national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q7684155",
+"label": "Tanzania national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q3590414",
+"label": "Tanzania national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q2519012",
+"label": "Tanzania men's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q21662039",
+"label": "Tanzania women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q7684156",
+"label": "Tanzania national netball team",
+"sport": "Q131785111"
 }
 ],
 "executive": [
@@ -853335,6 +860541,111 @@
 "qid": "Q65429194",
 "label": "Mark Alvin Natividad",
 "sport": "badminton"
+},
+{
+"qid": "Q15733441",
+"label": "Philippines national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q7185473",
+"label": "Philippines national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q3873914",
+"label": "Philippines men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q18388250",
+"label": "Philippines men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q7185475",
+"label": "Philippines women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16238179",
+"label": "Philippines men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q55629874",
+"label": "Philippines women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q2120312",
+"label": "Philippines Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q7185469",
+"label": "Philippines national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q85793128",
+"label": "Philippines women's national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q7185471",
+"label": "Philippines national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q15534190",
+"label": "Philippines women's national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q30594013",
+"label": "Philippines women's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q48699195",
+"label": "Philippines men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1037068",
+"label": "Philippines national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q3590533",
+"label": "Philippines national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q7185472",
+"label": "Philippines National Rugby League Team",
+"sport": "national rugby league team"
+},
+{
+"qid": "Q56813460",
+"label": "Philippines women's national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q18211274",
+"label": "Philippines men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q18211275",
+"label": "Philippines women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q23013793",
+"label": "Philippines national netball team",
+"sport": "Q131785111"
 }
 ],
 "executive": [
@@ -854390,6 +861701,31 @@
 "qid": "Q135380268",
 "label": "Bentiani Lare",
 "sport": "basketball"
+},
+{
+"qid": "Q2438786",
+"label": "Togo volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q27147123",
+"label": "Togo national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q131783400",
+"label": "Togo women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130524944",
+"label": "Togo men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3590799",
+"label": "Togo national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [
@@ -859038,6 +866374,51 @@
 "qid": "Q135354270",
 "label": "Aya Saibi",
 "sport": "basketball"
+},
+{
+"qid": "Q6931693",
+"label": "Tunisia national rugby sevens team",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q5376870",
+"label": "Tunisia men's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q1752185",
+"label": "Tunisia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q3967396",
+"label": "Tunisia Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q27147125",
+"label": "Tunisia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q25091619",
+"label": "Tunisia women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q65052864",
+"label": "Tunisia A' national basketball team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q86989105",
+"label": "Tunisia national cycling team",
+"sport": "national cycling team"
+},
+{
+"qid": "Q971837",
+"label": "Tunisia national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [
@@ -861376,6 +868757,51 @@
 "qid": "Q136892226",
 "label": "Naomi Mwale",
 "sport": "chess"
+},
+{
+"qid": "Q2518315",
+"label": "Zambia national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q8065693",
+"label": "Zambia national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q8065694",
+"label": "Zambia national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q60449223",
+"label": "Zambia women's national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q110612962",
+"label": "Zambia women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q1815884",
+"label": "Zambia national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q27147129",
+"label": "Zambia national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130536928",
+"label": "Zambia men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3590491",
+"label": "Zambia national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [
@@ -864284,6 +871710,71 @@
 "qid": "Q135354906",
 "label": "Thelma Goredema",
 "sport": "basketball"
+},
+{
+"qid": "Q8072047",
+"label": "Zimbabwe national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q948091",
+"label": "Zimbabwe national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q1254704",
+"label": "Zimbabwe national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q8071963",
+"label": "Zimbabwe A cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q1645451",
+"label": "Zimbabwe women's national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q3873687",
+"label": "Zimbabwe national field hockey team",
+"sport": "national field hockey team"
+},
+{
+"qid": "Q8072046",
+"label": "Zimbabwe national netball team",
+"sport": "Q131785111"
+},
+{
+"qid": "Q119165",
+"label": "Zimbabwe national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q8072044",
+"label": "Zimbabwe men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q16965688",
+"label": "Zimbabwe women's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q1973068",
+"label": "Zimbabwe Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q27147131",
+"label": "Zimbabwe national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q1544873",
+"label": "Zimbabwe national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [],
@@ -881534,6 +889025,111 @@
 "qid": "Q140468776",
 "label": "Elias Ramos",
 "sport": "basketball"
+},
+{
+"qid": "Q1848605",
+"label": "Mexico men's national ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q6826287",
+"label": "Mexico national rugby union team (sevens)",
+"sport": "national rugby sevens team"
+},
+{
+"qid": "Q6826268",
+"label": "Mexico men's national junior ice hockey team",
+"sport": "national ice hockey team"
+},
+{
+"qid": "Q1726935",
+"label": "Mexico Billie Jean King Cup team",
+"sport": "national tennis team"
+},
+{
+"qid": "Q1151279",
+"label": "STASE national baseball team",
+"sport": "national baseball team"
+},
+{
+"qid": "Q6826282",
+"label": "Mexico national cricket team",
+"sport": "national cricket team"
+},
+{
+"qid": "Q19577288",
+"label": "Mexico women's national water polo team",
+"sport": "national water polo team"
+},
+{
+"qid": "Q149529",
+"label": "Mexico national futsal team",
+"sport": "national futsal team"
+},
+{
+"qid": "Q6826269",
+"label": "Mexico men's national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733871",
+"label": "Mexico men's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q15733985",
+"label": "Mexico women's junior national softball team",
+"sport": "national softball team"
+},
+{
+"qid": "Q28446737",
+"label": "Mexico national cerebral palsy football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q99646935",
+"label": "Mexico men's national padel team",
+"sport": "national padel team"
+},
+{
+"qid": "Q135226311",
+"label": "Mexico women's national beach football team",
+"sport": "women's national team"
+},
+{
+"qid": "Q130225141",
+"label": "Mexico men's national blind football team",
+"sport": "national association football team"
+},
+{
+"qid": "Q27147054",
+"label": "Mexico national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q21010142",
+"label": "Mexico men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q39057755",
+"label": "Mexico women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q4993097",
+"label": "Mexico National Handball Team",
+"sport": "national handball team"
+},
+{
+"qid": "Q11136961",
+"label": "Mexico national rugby union team",
+"sport": "national rugby union team"
+},
+{
+"qid": "Q48835763",
+"label": "Mexico national rugby league team",
+"sport": "national rugby league team"
 }
 ],
 "executive": [
@@ -882917,6 +890513,26 @@
 "qid": "Q135354399",
 "label": "Omonyélé Odou",
 "sport": "basketball"
+},
+{
+"qid": "Q27147074",
+"label": "Benin national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130549715",
+"label": "Benin women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130438109",
+"label": "Benin men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q3590611",
+"label": "Benin national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [
@@ -885822,6 +893438,36 @@
 "qid": "Q99669640",
 "label": "Michel-Ange Balikwisha",
 "sport": "association football"
+},
+{
+"qid": "Q1957306",
+"label": "DR Congo men's national volleyball team",
+"sport": "national volleyball team"
+},
+{
+"qid": "Q27147085",
+"label": "DR Congo national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q130459651",
+"label": "Democratic Republic of the Congo men's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q130705782",
+"label": "Democratic Republic of Congo women's national 3x3 team",
+"sport": "national basketball team"
+},
+{
+"qid": "Q17118407",
+"label": "Congo DR national handball team",
+"sport": "national handball team"
+},
+{
+"qid": "Q591846",
+"label": "DR Congo national rugby union team",
+"sport": "national rugby union team"
 }
 ],
 "executive": [
@@ -886155,6 +893801,16 @@
 "qid": "Q134373671",
 "label": "Hassan Waiss",
 "sport": "athletics"
+},
+{
+"qid": "Q66714970",
+"label": "Djibouti national badminton team",
+"sport": "national badminton team"
+},
+{
+"qid": "Q141176111",
+"label": "Djibouti women's national 3x3 team",
+"sport": "national basketball team"
 }
 ],
 "executive": [],
@@ -887646,6 +895302,11 @@
 "qid": "Q128694331",
 "label": "Dawit Seare",
 "sport": "athletics"
+},
+{
+"qid": "Q27147090",
+"label": "Eritrea national badminton team",
+"sport": "national badminton team"
 }
 ],
 "executive": [],

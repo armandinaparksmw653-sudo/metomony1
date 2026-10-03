@@ -1,0 +1,5 @@
+metonymic iff type clash         acc 0.850  prec 0.866  rec 0.834  macro-F1 0.850  (n=1965)
+clash and KB space nonempty      acc 0.795  prec 0.859  rec 0.714  macro-F1 0.794  (n=1965)
+metonymic clashes: 831, KB offers a reading for 711 (86%)
+literal   clashes: 129, KB offers a reading for 117 (91%)
+by required sort and KB support: [(('People', True), 111), (('Polity', False), 28), (('Polity', True), 466), (('Team', False), 104), (('Team', True), 251)]

@@ -1,0 +1,10 @@
+Agda check of toponym certificates (global Wikidata snapshot: 556 places, 425 polities, 1422 teams).
+Sample: 400 certificates from the ReLocaR pipeline (parse by Qwen2.5-7B, clash, KB space, first admissible edge) plus 60 corrupted controls.
+Agda accepted the final batch, 1 run, 805.4 s total
+pipeline certificates: 400/400 accepted
+controls rejected as expected: 60/60
+   KB has no such institution for the place         7/7
+   referent not related to the place in the KB      16/16
+   type clash (coerced sort, no coercion applied)   7/7
+   unknown constant identifier                      15/15
+   unknown predicate identifier                     15/15

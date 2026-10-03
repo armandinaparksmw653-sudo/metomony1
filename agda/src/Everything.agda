@@ -49,3 +49,5 @@ open import Metonymy.ExampleKB
 open import Metonymy.CertExample
 import Metonymy.ConMeCKB
 import Metonymy.ConMeCSnap
+import Metonymy.ToponymKB
+import Metonymy.ToponymSnap

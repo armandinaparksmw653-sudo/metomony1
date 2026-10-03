@@ -9,9 +9,9 @@ open import Metonymy.Graph
 open import Metonymy.Check
 
 data T : Set where Container Content Creator Output Product Maker Place LocatedThing Causer Result Possessed Possessor : T
-data E : Set where e_contents e_output e_maker e_located e_result e_possessor : E
-data P : Set where p_ctxContainer p_ctxContent p_ctxCreator p_ctxOutput p_ctxProduct p_ctxMaker p_ctxPlace p_ctxLocatedThing p_ctxCauser p_ctxResult p_ctxPossessed p_ctxPossessor : P
-data K : Set where c_targetContainer c_targetCreator c_targetProduct c_targetPlace c_targetCauser c_targetPossessed : K
+data E : Set where e-contents e-output e-maker e-located e-result e-possessor : E
+data P : Set where p-ctxContainer p-ctxContent p-ctxCreator p-ctxOutput p-ctxProduct p-ctxMaker p-ctxPlace p-ctxLocatedThing p-ctxCauser p-ctxResult p-ctxPossessed p-ctxPossessor : P
+data K : Set where c-targetContainer c-targetCreator c-targetProduct c-targetPlace c-targetCauser c-targetPossessed : K
 data Ru : Set where
 
 tyEqT : (X Y : T) → Dec (X ≡ Y)
@@ -178,8 +178,8 @@ G : Graph
 G = record
   { Ty     = T
   ; EdgeId = E
-  ; src    = λ { e_contents → Container; e_output → Creator; e_maker → Product; e_located → Place; e_result → Causer; e_possessor → Possessed }
-  ; tgt    = λ { e_contents → Content; e_output → Output; e_maker → Maker; e_located → LocatedThing; e_result → Result; e_possessor → Possessor }
+  ; src    = λ { e-contents → Container; e-output → Creator; e-maker → Product; e-located → Place; e-result → Causer; e-possessor → Possessed }
+  ; tgt    = λ { e-contents → Content; e-output → Output; e-maker → Maker; e-located → LocatedThing; e-result → Result; e-possessor → Possessor }
   }
 
 L : Lexicon
@@ -189,257 +189,257 @@ L = record
   ; tyEq-refl     = tyEqT-refl
   ; PredId        = P
   ; ConstId       = K
-  ; psig          = λ { p_ctxContainer → Container ∷ []; p_ctxContent → Content ∷ []; p_ctxCreator → Creator ∷ []; p_ctxOutput → Output ∷ []; p_ctxProduct → Product ∷ []; p_ctxMaker → Maker ∷ []; p_ctxPlace → Place ∷ []; p_ctxLocatedThing → LocatedThing ∷ []; p_ctxCauser → Causer ∷ []; p_ctxResult → Result ∷ []; p_ctxPossessed → Possessed ∷ []; p_ctxPossessor → Possessor ∷ [] }
-  ; cty           = λ { c_targetContainer → Container; c_targetCreator → Creator; c_targetProduct → Product; c_targetPlace → Place; c_targetCauser → Causer; c_targetPossessed → Possessed }
-  ; edgeOf         = λ { zero → just e_contents; (suc zero) → just e_output; (suc (suc zero)) → just e_maker; (suc (suc (suc zero))) → just e_located; (suc (suc (suc (suc zero)))) → just e_result; (suc (suc (suc (suc (suc zero))))) → just e_possessor; (suc (suc (suc (suc (suc (suc _)))))) → nothing }
-  ; edgeName       = λ { e_contents → 0; e_output → 1; e_maker → 2; e_located → 3; e_result → 4; e_possessor → 5 }
-  ; edgeOf-name    = λ { e_contents → refl; e_output → refl; e_maker → refl; e_located → refl; e_result → refl; e_possessor → refl }
-  ; edgeOf-sound   = λ { zero e_contents _ → refl
-                      ; zero e_output ()
-                      ; zero e_maker ()
-                      ; zero e_located ()
-                      ; zero e_result ()
-                      ; zero e_possessor ()
-                      ; (suc zero) e_contents ()
-                      ; (suc zero) e_output _ → refl
-                      ; (suc zero) e_maker ()
-                      ; (suc zero) e_located ()
-                      ; (suc zero) e_result ()
-                      ; (suc zero) e_possessor ()
-                      ; (suc (suc zero)) e_contents ()
-                      ; (suc (suc zero)) e_output ()
-                      ; (suc (suc zero)) e_maker _ → refl
-                      ; (suc (suc zero)) e_located ()
-                      ; (suc (suc zero)) e_result ()
-                      ; (suc (suc zero)) e_possessor ()
-                      ; (suc (suc (suc zero))) e_contents ()
-                      ; (suc (suc (suc zero))) e_output ()
-                      ; (suc (suc (suc zero))) e_maker ()
-                      ; (suc (suc (suc zero))) e_located _ → refl
-                      ; (suc (suc (suc zero))) e_result ()
-                      ; (suc (suc (suc zero))) e_possessor ()
-                      ; (suc (suc (suc (suc zero)))) e_contents ()
-                      ; (suc (suc (suc (suc zero)))) e_output ()
-                      ; (suc (suc (suc (suc zero)))) e_maker ()
-                      ; (suc (suc (suc (suc zero)))) e_located ()
-                      ; (suc (suc (suc (suc zero)))) e_result _ → refl
-                      ; (suc (suc (suc (suc zero)))) e_possessor ()
-                      ; (suc (suc (suc (suc (suc zero))))) e_contents ()
-                      ; (suc (suc (suc (suc (suc zero))))) e_output ()
-                      ; (suc (suc (suc (suc (suc zero))))) e_maker ()
-                      ; (suc (suc (suc (suc (suc zero))))) e_located ()
-                      ; (suc (suc (suc (suc (suc zero))))) e_result ()
-                      ; (suc (suc (suc (suc (suc zero))))) e_possessor _ → refl
-                      ; (suc (suc (suc (suc (suc (suc k)))))) e_contents ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) e_output ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) e_maker ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) e_located ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) e_result ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) e_possessor () }
-  ; predOf         = λ { zero → just p_ctxContainer; (suc zero) → just p_ctxContent; (suc (suc zero)) → just p_ctxCreator; (suc (suc (suc zero))) → just p_ctxOutput; (suc (suc (suc (suc zero)))) → just p_ctxProduct; (suc (suc (suc (suc (suc zero))))) → just p_ctxMaker; (suc (suc (suc (suc (suc (suc zero)))))) → just p_ctxPlace; (suc (suc (suc (suc (suc (suc (suc zero))))))) → just p_ctxLocatedThing; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) → just p_ctxCauser; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) → just p_ctxResult; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) → just p_ctxPossessed; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) → just p_ctxPossessor; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc _)))))))))))) → nothing }
-  ; predName       = λ { p_ctxContainer → 0; p_ctxContent → 1; p_ctxCreator → 2; p_ctxOutput → 3; p_ctxProduct → 4; p_ctxMaker → 5; p_ctxPlace → 6; p_ctxLocatedThing → 7; p_ctxCauser → 8; p_ctxResult → 9; p_ctxPossessed → 10; p_ctxPossessor → 11 }
-  ; predOf-name    = λ { p_ctxContainer → refl; p_ctxContent → refl; p_ctxCreator → refl; p_ctxOutput → refl; p_ctxProduct → refl; p_ctxMaker → refl; p_ctxPlace → refl; p_ctxLocatedThing → refl; p_ctxCauser → refl; p_ctxResult → refl; p_ctxPossessed → refl; p_ctxPossessor → refl }
-  ; predOf-sound   = λ { zero p_ctxContainer _ → refl
-                      ; zero p_ctxContent ()
-                      ; zero p_ctxCreator ()
-                      ; zero p_ctxOutput ()
-                      ; zero p_ctxProduct ()
-                      ; zero p_ctxMaker ()
-                      ; zero p_ctxPlace ()
-                      ; zero p_ctxLocatedThing ()
-                      ; zero p_ctxCauser ()
-                      ; zero p_ctxResult ()
-                      ; zero p_ctxPossessed ()
-                      ; zero p_ctxPossessor ()
-                      ; (suc zero) p_ctxContainer ()
-                      ; (suc zero) p_ctxContent _ → refl
-                      ; (suc zero) p_ctxCreator ()
-                      ; (suc zero) p_ctxOutput ()
-                      ; (suc zero) p_ctxProduct ()
-                      ; (suc zero) p_ctxMaker ()
-                      ; (suc zero) p_ctxPlace ()
-                      ; (suc zero) p_ctxLocatedThing ()
-                      ; (suc zero) p_ctxCauser ()
-                      ; (suc zero) p_ctxResult ()
-                      ; (suc zero) p_ctxPossessed ()
-                      ; (suc zero) p_ctxPossessor ()
-                      ; (suc (suc zero)) p_ctxContainer ()
-                      ; (suc (suc zero)) p_ctxContent ()
-                      ; (suc (suc zero)) p_ctxCreator _ → refl
-                      ; (suc (suc zero)) p_ctxOutput ()
-                      ; (suc (suc zero)) p_ctxProduct ()
-                      ; (suc (suc zero)) p_ctxMaker ()
-                      ; (suc (suc zero)) p_ctxPlace ()
-                      ; (suc (suc zero)) p_ctxLocatedThing ()
-                      ; (suc (suc zero)) p_ctxCauser ()
-                      ; (suc (suc zero)) p_ctxResult ()
-                      ; (suc (suc zero)) p_ctxPossessed ()
-                      ; (suc (suc zero)) p_ctxPossessor ()
-                      ; (suc (suc (suc zero))) p_ctxContainer ()
-                      ; (suc (suc (suc zero))) p_ctxContent ()
-                      ; (suc (suc (suc zero))) p_ctxCreator ()
-                      ; (suc (suc (suc zero))) p_ctxOutput _ → refl
-                      ; (suc (suc (suc zero))) p_ctxProduct ()
-                      ; (suc (suc (suc zero))) p_ctxMaker ()
-                      ; (suc (suc (suc zero))) p_ctxPlace ()
-                      ; (suc (suc (suc zero))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc zero))) p_ctxCauser ()
-                      ; (suc (suc (suc zero))) p_ctxResult ()
-                      ; (suc (suc (suc zero))) p_ctxPossessed ()
-                      ; (suc (suc (suc zero))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxContent ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxProduct _ → refl
-                      ; (suc (suc (suc (suc zero)))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxResult ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc zero)))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxMaker _ → refl
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxResult ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc (suc zero))))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxPlace _ → refl
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxResult ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc (suc (suc zero)))))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxLocatedThing _ → refl
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxResult ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxCauser _ → refl
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxResult ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxResult _ → refl
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxResult ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxPossessed _ → refl
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p_ctxPossessor ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxResult ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p_ctxPossessor _ → refl
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxContainer ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxContent ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxCreator ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxOutput ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxProduct ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxMaker ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxPlace ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxLocatedThing ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxCauser ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxResult ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxPossessed ()
-                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p_ctxPossessor () }
-  ; constOf        = λ { zero → just c_targetContainer; (suc zero) → just c_targetCreator; (suc (suc zero)) → just c_targetProduct; (suc (suc (suc zero))) → just c_targetPlace; (suc (suc (suc (suc zero)))) → just c_targetCauser; (suc (suc (suc (suc (suc zero))))) → just c_targetPossessed; (suc (suc (suc (suc (suc (suc _)))))) → nothing }
-  ; constName      = λ { c_targetContainer → 0; c_targetCreator → 1; c_targetProduct → 2; c_targetPlace → 3; c_targetCauser → 4; c_targetPossessed → 5 }
-  ; constOf-name   = λ { c_targetContainer → refl; c_targetCreator → refl; c_targetProduct → refl; c_targetPlace → refl; c_targetCauser → refl; c_targetPossessed → refl }
-  ; constOf-sound  = λ { zero c_targetContainer _ → refl
-                      ; zero c_targetCreator ()
-                      ; zero c_targetProduct ()
-                      ; zero c_targetPlace ()
-                      ; zero c_targetCauser ()
-                      ; zero c_targetPossessed ()
-                      ; (suc zero) c_targetContainer ()
-                      ; (suc zero) c_targetCreator _ → refl
-                      ; (suc zero) c_targetProduct ()
-                      ; (suc zero) c_targetPlace ()
-                      ; (suc zero) c_targetCauser ()
-                      ; (suc zero) c_targetPossessed ()
-                      ; (suc (suc zero)) c_targetContainer ()
-                      ; (suc (suc zero)) c_targetCreator ()
-                      ; (suc (suc zero)) c_targetProduct _ → refl
-                      ; (suc (suc zero)) c_targetPlace ()
-                      ; (suc (suc zero)) c_targetCauser ()
-                      ; (suc (suc zero)) c_targetPossessed ()
-                      ; (suc (suc (suc zero))) c_targetContainer ()
-                      ; (suc (suc (suc zero))) c_targetCreator ()
-                      ; (suc (suc (suc zero))) c_targetProduct ()
-                      ; (suc (suc (suc zero))) c_targetPlace _ → refl
-                      ; (suc (suc (suc zero))) c_targetCauser ()
-                      ; (suc (suc (suc zero))) c_targetPossessed ()
-                      ; (suc (suc (suc (suc zero)))) c_targetContainer ()
-                      ; (suc (suc (suc (suc zero)))) c_targetCreator ()
-                      ; (suc (suc (suc (suc zero)))) c_targetProduct ()
-                      ; (suc (suc (suc (suc zero)))) c_targetPlace ()
-                      ; (suc (suc (suc (suc zero)))) c_targetCauser _ → refl
-                      ; (suc (suc (suc (suc zero)))) c_targetPossessed ()
-                      ; (suc (suc (suc (suc (suc zero))))) c_targetContainer ()
-                      ; (suc (suc (suc (suc (suc zero))))) c_targetCreator ()
-                      ; (suc (suc (suc (suc (suc zero))))) c_targetProduct ()
-                      ; (suc (suc (suc (suc (suc zero))))) c_targetPlace ()
-                      ; (suc (suc (suc (suc (suc zero))))) c_targetCauser ()
-                      ; (suc (suc (suc (suc (suc zero))))) c_targetPossessed _ → refl
-                      ; (suc (suc (suc (suc (suc (suc k)))))) c_targetContainer ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) c_targetCreator ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) c_targetProduct ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) c_targetPlace ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) c_targetCauser ()
-                      ; (suc (suc (suc (suc (suc (suc k)))))) c_targetPossessed () }
+  ; psig          = λ { p-ctxContainer → Container ∷ []; p-ctxContent → Content ∷ []; p-ctxCreator → Creator ∷ []; p-ctxOutput → Output ∷ []; p-ctxProduct → Product ∷ []; p-ctxMaker → Maker ∷ []; p-ctxPlace → Place ∷ []; p-ctxLocatedThing → LocatedThing ∷ []; p-ctxCauser → Causer ∷ []; p-ctxResult → Result ∷ []; p-ctxPossessed → Possessed ∷ []; p-ctxPossessor → Possessor ∷ [] }
+  ; cty           = λ { c-targetContainer → Container; c-targetCreator → Creator; c-targetProduct → Product; c-targetPlace → Place; c-targetCauser → Causer; c-targetPossessed → Possessed }
+  ; edgeOf         = λ { zero → just e-contents; (suc zero) → just e-output; (suc (suc zero)) → just e-maker; (suc (suc (suc zero))) → just e-located; (suc (suc (suc (suc zero)))) → just e-result; (suc (suc (suc (suc (suc zero))))) → just e-possessor; (suc (suc (suc (suc (suc (suc _)))))) → nothing }
+  ; edgeName       = λ { e-contents → 0; e-output → 1; e-maker → 2; e-located → 3; e-result → 4; e-possessor → 5 }
+  ; edgeOf-name    = λ { e-contents → refl; e-output → refl; e-maker → refl; e-located → refl; e-result → refl; e-possessor → refl }
+  ; edgeOf-sound   = λ { zero e-contents _ → refl
+                      ; zero e-output ()
+                      ; zero e-maker ()
+                      ; zero e-located ()
+                      ; zero e-result ()
+                      ; zero e-possessor ()
+                      ; (suc zero) e-contents ()
+                      ; (suc zero) e-output _ → refl
+                      ; (suc zero) e-maker ()
+                      ; (suc zero) e-located ()
+                      ; (suc zero) e-result ()
+                      ; (suc zero) e-possessor ()
+                      ; (suc (suc zero)) e-contents ()
+                      ; (suc (suc zero)) e-output ()
+                      ; (suc (suc zero)) e-maker _ → refl
+                      ; (suc (suc zero)) e-located ()
+                      ; (suc (suc zero)) e-result ()
+                      ; (suc (suc zero)) e-possessor ()
+                      ; (suc (suc (suc zero))) e-contents ()
+                      ; (suc (suc (suc zero))) e-output ()
+                      ; (suc (suc (suc zero))) e-maker ()
+                      ; (suc (suc (suc zero))) e-located _ → refl
+                      ; (suc (suc (suc zero))) e-result ()
+                      ; (suc (suc (suc zero))) e-possessor ()
+                      ; (suc (suc (suc (suc zero)))) e-contents ()
+                      ; (suc (suc (suc (suc zero)))) e-output ()
+                      ; (suc (suc (suc (suc zero)))) e-maker ()
+                      ; (suc (suc (suc (suc zero)))) e-located ()
+                      ; (suc (suc (suc (suc zero)))) e-result _ → refl
+                      ; (suc (suc (suc (suc zero)))) e-possessor ()
+                      ; (suc (suc (suc (suc (suc zero))))) e-contents ()
+                      ; (suc (suc (suc (suc (suc zero))))) e-output ()
+                      ; (suc (suc (suc (suc (suc zero))))) e-maker ()
+                      ; (suc (suc (suc (suc (suc zero))))) e-located ()
+                      ; (suc (suc (suc (suc (suc zero))))) e-result ()
+                      ; (suc (suc (suc (suc (suc zero))))) e-possessor _ → refl
+                      ; (suc (suc (suc (suc (suc (suc k)))))) e-contents ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) e-output ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) e-maker ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) e-located ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) e-result ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) e-possessor () }
+  ; predOf         = λ { zero → just p-ctxContainer; (suc zero) → just p-ctxContent; (suc (suc zero)) → just p-ctxCreator; (suc (suc (suc zero))) → just p-ctxOutput; (suc (suc (suc (suc zero)))) → just p-ctxProduct; (suc (suc (suc (suc (suc zero))))) → just p-ctxMaker; (suc (suc (suc (suc (suc (suc zero)))))) → just p-ctxPlace; (suc (suc (suc (suc (suc (suc (suc zero))))))) → just p-ctxLocatedThing; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) → just p-ctxCauser; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) → just p-ctxResult; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) → just p-ctxPossessed; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) → just p-ctxPossessor; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc _)))))))))))) → nothing }
+  ; predName       = λ { p-ctxContainer → 0; p-ctxContent → 1; p-ctxCreator → 2; p-ctxOutput → 3; p-ctxProduct → 4; p-ctxMaker → 5; p-ctxPlace → 6; p-ctxLocatedThing → 7; p-ctxCauser → 8; p-ctxResult → 9; p-ctxPossessed → 10; p-ctxPossessor → 11 }
+  ; predOf-name    = λ { p-ctxContainer → refl; p-ctxContent → refl; p-ctxCreator → refl; p-ctxOutput → refl; p-ctxProduct → refl; p-ctxMaker → refl; p-ctxPlace → refl; p-ctxLocatedThing → refl; p-ctxCauser → refl; p-ctxResult → refl; p-ctxPossessed → refl; p-ctxPossessor → refl }
+  ; predOf-sound   = λ { zero p-ctxContainer _ → refl
+                      ; zero p-ctxContent ()
+                      ; zero p-ctxCreator ()
+                      ; zero p-ctxOutput ()
+                      ; zero p-ctxProduct ()
+                      ; zero p-ctxMaker ()
+                      ; zero p-ctxPlace ()
+                      ; zero p-ctxLocatedThing ()
+                      ; zero p-ctxCauser ()
+                      ; zero p-ctxResult ()
+                      ; zero p-ctxPossessed ()
+                      ; zero p-ctxPossessor ()
+                      ; (suc zero) p-ctxContainer ()
+                      ; (suc zero) p-ctxContent _ → refl
+                      ; (suc zero) p-ctxCreator ()
+                      ; (suc zero) p-ctxOutput ()
+                      ; (suc zero) p-ctxProduct ()
+                      ; (suc zero) p-ctxMaker ()
+                      ; (suc zero) p-ctxPlace ()
+                      ; (suc zero) p-ctxLocatedThing ()
+                      ; (suc zero) p-ctxCauser ()
+                      ; (suc zero) p-ctxResult ()
+                      ; (suc zero) p-ctxPossessed ()
+                      ; (suc zero) p-ctxPossessor ()
+                      ; (suc (suc zero)) p-ctxContainer ()
+                      ; (suc (suc zero)) p-ctxContent ()
+                      ; (suc (suc zero)) p-ctxCreator _ → refl
+                      ; (suc (suc zero)) p-ctxOutput ()
+                      ; (suc (suc zero)) p-ctxProduct ()
+                      ; (suc (suc zero)) p-ctxMaker ()
+                      ; (suc (suc zero)) p-ctxPlace ()
+                      ; (suc (suc zero)) p-ctxLocatedThing ()
+                      ; (suc (suc zero)) p-ctxCauser ()
+                      ; (suc (suc zero)) p-ctxResult ()
+                      ; (suc (suc zero)) p-ctxPossessed ()
+                      ; (suc (suc zero)) p-ctxPossessor ()
+                      ; (suc (suc (suc zero))) p-ctxContainer ()
+                      ; (suc (suc (suc zero))) p-ctxContent ()
+                      ; (suc (suc (suc zero))) p-ctxCreator ()
+                      ; (suc (suc (suc zero))) p-ctxOutput _ → refl
+                      ; (suc (suc (suc zero))) p-ctxProduct ()
+                      ; (suc (suc (suc zero))) p-ctxMaker ()
+                      ; (suc (suc (suc zero))) p-ctxPlace ()
+                      ; (suc (suc (suc zero))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc zero))) p-ctxCauser ()
+                      ; (suc (suc (suc zero))) p-ctxResult ()
+                      ; (suc (suc (suc zero))) p-ctxPossessed ()
+                      ; (suc (suc (suc zero))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxContent ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxProduct _ → refl
+                      ; (suc (suc (suc (suc zero)))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxResult ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc zero)))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxMaker _ → refl
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxResult ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc (suc zero))))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxPlace _ → refl
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxResult ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc (suc (suc zero)))))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxLocatedThing _ → refl
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxResult ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc (suc (suc (suc zero))))))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxCauser _ → refl
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxResult ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxResult _ → refl
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxResult ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxPossessed _ → refl
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero)))))))))) p-ctxPossessor ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxResult ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc zero))))))))))) p-ctxPossessor _ → refl
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxContainer ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxContent ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxCreator ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxOutput ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxProduct ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxMaker ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxPlace ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxLocatedThing ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxCauser ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxResult ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxPossessed ()
+                      ; (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc (suc k)))))))))))) p-ctxPossessor () }
+  ; constOf        = λ { zero → just c-targetContainer; (suc zero) → just c-targetCreator; (suc (suc zero)) → just c-targetProduct; (suc (suc (suc zero))) → just c-targetPlace; (suc (suc (suc (suc zero)))) → just c-targetCauser; (suc (suc (suc (suc (suc zero))))) → just c-targetPossessed; (suc (suc (suc (suc (suc (suc _)))))) → nothing }
+  ; constName      = λ { c-targetContainer → 0; c-targetCreator → 1; c-targetProduct → 2; c-targetPlace → 3; c-targetCauser → 4; c-targetPossessed → 5 }
+  ; constOf-name   = λ { c-targetContainer → refl; c-targetCreator → refl; c-targetProduct → refl; c-targetPlace → refl; c-targetCauser → refl; c-targetPossessed → refl }
+  ; constOf-sound  = λ { zero c-targetContainer _ → refl
+                      ; zero c-targetCreator ()
+                      ; zero c-targetProduct ()
+                      ; zero c-targetPlace ()
+                      ; zero c-targetCauser ()
+                      ; zero c-targetPossessed ()
+                      ; (suc zero) c-targetContainer ()
+                      ; (suc zero) c-targetCreator _ → refl
+                      ; (suc zero) c-targetProduct ()
+                      ; (suc zero) c-targetPlace ()
+                      ; (suc zero) c-targetCauser ()
+                      ; (suc zero) c-targetPossessed ()
+                      ; (suc (suc zero)) c-targetContainer ()
+                      ; (suc (suc zero)) c-targetCreator ()
+                      ; (suc (suc zero)) c-targetProduct _ → refl
+                      ; (suc (suc zero)) c-targetPlace ()
+                      ; (suc (suc zero)) c-targetCauser ()
+                      ; (suc (suc zero)) c-targetPossessed ()
+                      ; (suc (suc (suc zero))) c-targetContainer ()
+                      ; (suc (suc (suc zero))) c-targetCreator ()
+                      ; (suc (suc (suc zero))) c-targetProduct ()
+                      ; (suc (suc (suc zero))) c-targetPlace _ → refl
+                      ; (suc (suc (suc zero))) c-targetCauser ()
+                      ; (suc (suc (suc zero))) c-targetPossessed ()
+                      ; (suc (suc (suc (suc zero)))) c-targetContainer ()
+                      ; (suc (suc (suc (suc zero)))) c-targetCreator ()
+                      ; (suc (suc (suc (suc zero)))) c-targetProduct ()
+                      ; (suc (suc (suc (suc zero)))) c-targetPlace ()
+                      ; (suc (suc (suc (suc zero)))) c-targetCauser _ → refl
+                      ; (suc (suc (suc (suc zero)))) c-targetPossessed ()
+                      ; (suc (suc (suc (suc (suc zero))))) c-targetContainer ()
+                      ; (suc (suc (suc (suc (suc zero))))) c-targetCreator ()
+                      ; (suc (suc (suc (suc (suc zero))))) c-targetProduct ()
+                      ; (suc (suc (suc (suc (suc zero))))) c-targetPlace ()
+                      ; (suc (suc (suc (suc (suc zero))))) c-targetCauser ()
+                      ; (suc (suc (suc (suc (suc zero))))) c-targetPossessed _ → refl
+                      ; (suc (suc (suc (suc (suc (suc k)))))) c-targetContainer ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) c-targetCreator ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) c-targetProduct ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) c-targetPlace ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) c-targetCauser ()
+                      ; (suc (suc (suc (suc (suc (suc k)))))) c-targetPossessed () }
   }
 
 open Routes G

@@ -124,5 +124,34 @@ def facts():
     print({k: sum(1 for v in out.values() if v[k]) for k in ("teams", "executive", "legislative")}, "of", len(out))
 
 
+BAD = ("under-", " at the ", "youth", "university", " b national", "olympic", "amateur", "representative", "student")
+
+
+def national_teams():
+    """National teams via P17 and a class that is a direct subclass of 'national sports team' (Q1194951); merged into facts.json."""
+    chosen = json.load(open(os.path.join(KB, "chosen.json"), encoding="utf-8"))
+    path = os.path.join(KB, "facts.json")
+    facts = json.load(open(path, encoding="utf-8"))
+    qids = sorted({v for v in chosen.values() if v})
+    added = 0
+    for i in range(0, len(qids), 20):
+        vals = " ".join("wd:" + q for q in qids[i:i + 20])
+        q = """SELECT ?p ?t ?tl ?cl WHERE { VALUES ?p { %s } ?t wdt:P17 ?p . ?t wdt:P31 ?c . ?c wdt:P279 wd:Q1194951 .
+          SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?t rdfs:label ?tl. ?c rdfs:label ?cl } }""" % vals
+        for b in sparql(q) or []:
+            lab = b["tl"]["value"]
+            if lab.startswith("Q") or any(x in lab.lower() for x in BAD):
+                continue
+            p = b["p"]["value"].rsplit("/", 1)[1]
+            t = b["t"]["value"].rsplit("/", 1)[1]
+            if all(x["qid"] != t for x in facts[p]["teams"]):
+                facts[p]["teams"].append({"qid": t, "label": lab, "sport": b["cl"]["value"]})
+                added += 1
+        print("national", i, len(qids), flush=True)
+        time.sleep(1)
+    json.dump(facts, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+    print("added", added, "teams;", sum(1 for v in facts.values() if v["teams"]), "places with a team")
+
+
 if __name__ == "__main__":
-    {"link": link, "describe": describe, "facts": facts}[sys.argv[1]]()
+    {"link": link, "describe": describe, "facts": facts, "national": national_teams}[sys.argv[1]]()

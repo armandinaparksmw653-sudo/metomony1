@@ -12,3 +12,7 @@ results/colab_run1/
 results/colab_run2/
 results/pipeline_items*.jsonl
 agda/src/Metonymy/ConMeCBatch.agda
+results/colab_run3/
+results/relocar_parse_results.zip
+agda/src/Metonymy/ToponymBatch.agda
+results/toponym_*.jsonl
