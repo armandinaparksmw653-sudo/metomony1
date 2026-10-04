@@ -39,6 +39,39 @@ def titles():
     return json.load(open(os.path.join(KB, "wimcor_titles.json"), encoding="utf-8"))
 
 
+def build_rows(rows):
+    """Usable sentences with their oracle place (see module docstring); sentences with unresolved titles are dropped."""
+    q = titles()
+    pairs = defaultdict(list)
+    for p in wimcor.pairs():
+        pairs[p["referent"]].append(p)
+    out = []
+    for r in rows:
+        if r["coarse"] == "lit":
+            place, referent = r["fine"], None
+        else:
+            cands = pairs.get(r["fine"], [])
+            if not cands:
+                continue
+            exact = [p for p in cands if p["place"] == r["surface"] or p["place"].split(",")[0] == r["surface"]]
+            place, referent = (exact or cands)[0]["place"], r["fine"]
+        if not q.get(place) or (referent and not q.get(referent)):
+            continue
+        out.append({"id": r["id"], "medium": r["medium"], "coarse": r["coarse"], "surface": r["surface"], "place": place, "place_qid": q[place],
+                    "referent": referent, "referent_qid": q.get(referent) if referent else None})
+    return out
+
+
+def full():
+    """All usable sentences of the corpus (compact records, no text) and their (place, surface) keys; spaces are built for all keys."""
+    rows = build_rows(wimcor.load())
+    json.dump(rows, open(os.path.join(KB, "wimcor_full_index.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    keys = {(o["place_qid"], o["surface"]) for o in rows}
+    print(len(rows), "usable sentences;", len(keys), "keys")
+    sm = [{"place_qid": p, "surface": s} for p, s in sorted(keys)]
+    json.dump(sm, open(os.path.join(KB, "wimcor_sample_all_keys.json"), "w", encoding="utf-8"), ensure_ascii=False)
+
+
 def sample():
     q = titles()
     pairs = defaultdict(list)
@@ -102,7 +135,8 @@ def cands():
 
 def cands_named():
     """Same, but the element must carry the surface form of the mention in its English label (name compatibility), applied in the query."""
-    sm = json.load(open(os.path.join(KB, "wimcor_sample.json"), encoding="utf-8"))
+    src = "wimcor_sample_all_keys.json" if os.environ.get("ALL") == "1" else "wimcor_sample.json"
+    sm = json.load(open(os.path.join(KB, src), encoding="utf-8"))
     keys = sorted({(o["place_qid"], o["surface"].lower()) for o in sm})
     path = os.path.join(KB, "wimcor_cands_named.json")
     out = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
@@ -137,7 +171,8 @@ def cands_named():
 def cands_search():
     """Elements whose label or alias matches the surface form (Wikidata entity search), of the classes of every sort.
     The relation of the lexicon is name compatibility; `loc` records whether the element is also located at the place."""
-    sm = json.load(open(os.path.join(KB, "wimcor_sample.json"), encoding="utf-8"))
+    src = "wimcor_sample_all_keys.json" if os.environ.get("ALL") == "1" else "wimcor_sample.json"
+    sm = json.load(open(os.path.join(KB, src), encoding="utf-8"))
     keys = sorted({(o["place_qid"], o["surface"]) for o in sm})
     path = os.path.join(KB, "wimcor_cands_search.json")
     out = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
@@ -233,4 +268,4 @@ def report():
 
 
 if __name__ == "__main__":
-    {"sample": sample, "cands": cands, "report": report, "named": cands_named, "search": cands_search, "report_search": report_search, "report_named": report_named}[sys.argv[1]]()
+    {"sample": sample, "cands": cands, "report": report, "full": full, "named": cands_named, "search": cands_search, "report_search": report_search, "report_named": report_named}[sys.argv[1]]()

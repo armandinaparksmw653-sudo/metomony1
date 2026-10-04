@@ -42,6 +42,9 @@ def titles():
     for i in range(0, len(todo), 50):
         batch = todo[i:i + 50]
         r = wd.call({"action": "wbgetentities", "sites": "enwiki", "titles": "|".join(batch), "props": "sitelinks|labels", "languages": "en", "sitefilter": "enwiki"})
+        if r is None or "entities" not in r:
+            print("batch failed, will retry on the next run", i, flush=True)
+            continue
         found = {}
         for q, e in ((r or {}).get("entities") or {}).items():
             if q.startswith("Q"):
@@ -55,6 +58,48 @@ def titles():
         time.sleep(0.3)
     json.dump(cache, open(TITLES, "w", encoding="utf-8"), ensure_ascii=False)
     print("resolved", sum(1 for v in cache.values() if v), "of", len(cache))
+
+
+def redirects():
+    """Resolve the titles that have no Wikidata sitelink through Wikipedia redirects and normalization, then through Wikidata."""
+    cache = json.load(open(TITLES, encoding="utf-8"))
+    todo = sorted(t for t, v in cache.items() if not v)
+    print(len(todo), "unresolved titles", flush=True)
+    fixed = 0
+    for i in range(0, len(todo), 50):
+        batch = todo[i:i + 50]
+        url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode({"action": "query", "titles": "|".join(batch), "redirects": 1, "format": "json"})
+        r = None
+        for k in range(3):
+            try:
+                r = json.load(urllib.request.urlopen(urllib.request.Request(url, headers=wd.UA), timeout=30))
+                break
+            except Exception:
+                time.sleep(3)
+        if not r:
+            continue
+        q = r.get("query", {})
+        step = {}
+        for key in ("normalized", "redirects"):
+            for x in q.get(key, []):
+                step[x["from"]] = x["to"]
+        target = {}
+        for t in batch:
+            u = t
+            for _ in range(3):
+                u = step.get(u, u)
+            if u != t:
+                target[t] = u
+        if target:
+            ids = wd.call({"action": "wbgetentities", "sites": "enwiki", "titles": "|".join(sorted(set(target.values()))), "props": "sitelinks", "sitefilter": "enwiki", "languages": "en"})
+            got = {e["sitelinks"]["enwiki"]["title"]: qq for qq, e in ((ids or {}).get("entities") or {}).items() if qq.startswith("Q") and "sitelinks" in e}
+            for t, u in target.items():
+                if got.get(u):
+                    cache[t] = got[u]
+                    fixed += 1
+        time.sleep(0.3)
+    json.dump(cache, open(TITLES, "w", encoding="utf-8"), ensure_ascii=False)
+    print("fixed", fixed, "; resolved now", sum(1 for v in cache.values() if v), "of", len(cache))
 
 
 def relations():
@@ -92,4 +137,4 @@ def relations():
 
 
 if __name__ == "__main__":
-    {"titles": titles, "relations": relations}[sys.argv[1]]()
+    {"titles": titles, "relations": relations, "redirects": redirects}[sys.argv[1]]()

@@ -20,3 +20,8 @@ data/kb/wimcor_cands.json
 data/kb/wimcor_cands_named.json
 data/kb/wimcor_sample.json
 results/e4_input.jsonl
+results/frames_input.jsonl
+data/kb/wimcor_frame_index.json
+data/kb/wimcor_frames.json
+data/kb/wimcor_sample_all_keys.json
+data/kb/wimcor_full_index.json
