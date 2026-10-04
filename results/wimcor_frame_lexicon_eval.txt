@@ -1,0 +1,20 @@
+stat           val: acc 0.863 macro-recall 0.578 | clash precision 0.856 recall 0.652
+     recall   LOCA 0.96  INST 0.67  TEAM 0.68  ARTI 0.20  EVEN 0.38
+     precisionLOCA 0.89  INST 0.76  TEAM 0.77  ARTI 0.59  EVEN 0.82
+llm            val: acc 0.762 macro-recall 0.512 | clash precision 0.575 recall 0.644
+     recall   LOCA 0.84  INST 0.65  TEAM 0.66  ARTI 0.14  EVEN 0.27
+     precisionLOCA 0.87  INST 0.55  TEAM 0.69  ARTI 0.12  EVEN 0.35
+stat           test: acc 0.861 macro-recall 0.584 | clash precision 0.851 recall 0.648
+     recall   LOCA 0.96  INST 0.67  TEAM 0.67  ARTI 0.19  EVEN 0.43
+     precisionLOCA 0.89  INST 0.76  TEAM 0.77  ARTI 0.57  EVEN 0.81
+llm            test: acc 0.762 macro-recall 0.519 | clash precision 0.574 recall 0.648
+     recall   LOCA 0.84  INST 0.66  TEAM 0.66  ARTI 0.15  EVEN 0.29
+     precisionLOCA 0.87  INST 0.55  TEAM 0.70  ARTI 0.13  EVEN 0.38
+best lam on val (macro-recall): 4.0
+combo lam=4.00 val: acc 0.855 macro-recall 0.549 | clash precision 0.836 recall 0.611
+     recall   LOCA 0.96  INST 0.66  TEAM 0.67  ARTI 0.14  EVEN 0.32
+     precisionLOCA 0.88  INST 0.76  TEAM 0.77  ARTI 0.54  EVEN 0.84
+combo lam=4.00 test: acc 0.855 macro-recall 0.553 | clash precision 0.837 recall 0.612
+     recall   LOCA 0.96  INST 0.66  TEAM 0.67  ARTI 0.13  EVEN 0.34
+     precisionLOCA 0.88  INST 0.76  TEAM 0.77  ARTI 0.51  EVEN 0.82
+LLM lexicon level used on test: {'L2': 30926, 'L1': 10274}
